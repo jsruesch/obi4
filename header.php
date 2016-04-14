@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     
-    <title>jweb</title>
+    <title>Old Buzzard Invitational</title>
     <meta name="description"
           content="">
         
@@ -12,29 +12,18 @@
     <!-- Responsive Stylesheet -->
     <link rel="stylesheet" type="text/css" href="stylesheets/responsive_styles.min.css"/>
     
-    <!-- Mobile Nav Stylesheet -->
-    <link rel="stylesheet" type="text/css" href="stylesheets/mobile_nav_style.min.css"/>
-    <script type="text/javascript" src="js/modernizr.mobilenav.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
     <!-- jQuery -->
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    
+    <!-- Bootstrap CDN -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-    <!-- Fontello -->
-    <link rel="stylesheet" href="stylesheets/fontello/fontello.css">
-    <link rel="stylesheet" href="stylesheets/fontello/animation.css"><!--[if IE 7]>
-    <link rel="stylesheet" href="stylesheets/fontello/fontello-ie7.css"><![endif]-->
-    <script>
-        function toggleCodes(on) {
-          var obj = document.getElementById('icons');
-          
-          if (on) {
-            obj.className += ' codesOn';
-          } else {
-            obj.className = obj.className.replace(' codesOn', '');
-          }
-        }
-    </script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Hind:400,700,600,500,300' rel='stylesheet' type='text/css'>
     
 </head>
 

@@ -1,184 +1,54 @@
-
-/*------------------------------------------------------------------
-
-STYLESHEET CONTENTS
-
-    -- GLOBAL STYLES
-    -- MISC CLASSES
-    -- ACTIVE PAGE
-    -- CONTAINERS
-    -- NAVIGATION
-    -- ELEMENTS
-    -- FOOTER
-    
--------------------------------------------------------------------*/
-
-
-/*------------------------------------------------------------------
-
-    Global Styles
-
--------------------------------------------------------------------*/
+/**
+ * =========================================
+ * Imports
+ * =========================================
+ */
 
 @import 'mixins';
 
+/* End Imports */
+
+
+/**
+ * =========================================
+ * Global Styles
+ * =========================================
+ */
 * {
-    margin:0; padding:0;
+    margin: 0; 
+    padding: 0;
 
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
     }
 
-html{ overflow:scroll;}
+html{ overflow: scroll; }
+html, body{  background: #000 !important; }
 
-body{  }
-
-a{    
-     &:hover{
-    }
-
+h1,h2,h3,h4{
+    font-family: $hind !important;
+    font-weight: 900  !important;
+    text-transform: uppercase;
 }
 
+p{ color: #fff; font-family: $hind; }
 
-p{  }
+ul{
+    padding-left: 40px;
+    
+    li{
+        font-family: $hind;
+        color: #fff;
+    }
+}
 
-ul{ list-style:none; }
-
-hr{  }
-
-h1{  }
-h2{  }
-h3{  }
-h4{  }
-h5{  }
-
-::selection{  }
+.text-white{    color: $white; }
+.text-blue{     color: $blue; }
+.text-black{    color: $black; }
+.text-red{      color: $red; }
+.text-yellow{   color: $yellow; }
+.text-maroon{   color: $maroon; }
+.text-green{    color: $green; }
 
 /* End Global Styles */
-
-
-/*------------------------------------------------------------------
-
-    Misc Classes
-
--------------------------------------------------------------------*/
-
-.clear{ clear: both; }
-
-.left{ float:left; }
-.right{ float:right; }
-
-.bold{ font-weight:bold;}
-.italic{ font-style: italic; }
-.underline{ text-decoration:underline; }
-
-.center_text{ text-align:center; }
-.all_caps{ text-transform:uppercase; }
-.lower_case{ text-transform:lowercase; }
-
-/* End Misc Classes */
-
-
-
-/*------------------------------------------------------------------
-
-    Active Page
-
--------------------------------------------------------------------*/
-
-    /*
-      body#ID_NAME_HERE .Navigation_Name li.List_Item_Class_Here{ Style for active Nav button }
-    */
-
-/* End Active Page */
-
-
-
-/*------------------------------------------------------------------
-
-    Containers
-
--------------------------------------------------------------------*/
-
-.one_fourth{ width:25%; }
-.one_third{ width:33.3%; }
-.half{ width:50%;}
-.two_thirds{ width:66.66%; }
-.full{ @include full; }
-
-.container{  }
-.content{ @include full; padding:20px; }
-.center{ @include center; }
-
-.wrap{ width:980px; @include center; }
-
-/* End Containers */
-
-
-
-/*------------------------------------------------------------------
-
-    Navigation
-
--------------------------------------------------------------------*/
-
-.navigation_container{
-
-    .navigation{
-
-        .nav{
-
-            a{
-
-               &:hover{
-
-               }
-                
-                li{
-
-                }
-            }
-        }
-    }
-}
-
-
-/* End Navigation */
-
-
-
-/*------------------------------------------------------------------
-
-    Elements
-
--------------------------------------------------------------------*/
-  
-
-
-/* End Elements */
-
-
-
-/*------------------------------------------------------------------
-
-    Footer
-
--------------------------------------------------------------------*/
-.footer{
-
-}
-
-/* End Footer */
-
-
-
-
-
-
-
-
-
-
-
-
