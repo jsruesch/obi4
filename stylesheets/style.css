@@ -57,31 +57,31 @@ ul {
     color: #fff; }
 
 .text-gold {
-  color: #FFDC00; }
+  color: #FFDC00 !important; }
 
 .text-white {
-  color: #fff; }
+  color: #fff !important; }
 
 .text-blue {
-  color: #0064CA; }
+  color: #0064CA !important; }
 
 .text-black {
-  color: #BABABA; }
+  color: #BABABA !important; }
 
 .text-red {
-  color: #C60606; }
+  color: #C60606 !important; }
 
 .text-yellow {
-  color: #FFDC00; }
+  color: #FFDC00 !important; }
 
 .text-maroon {
-  color: #BA8192; }
+  color: #BA8192 !important; }
 
 .text-green {
-  color: #BA8192; }
+  color: #0BC500 !important; }
 
 .text-grey {
-  color: #111; }
+  color: #111 !important; }
 
 .bg-gold {
   background: #FFDC00; }
@@ -105,7 +105,7 @@ ul {
   background: #BA8192; }
 
 .bg-green {
-  background: #BA8192; }
+  background: #0BC500; }
 
 .bg-grey {
   background: #111; }
@@ -117,6 +117,41 @@ ul {
 
 /* End Bootstrap Overrides */
 /* End Global Styles */
+/**
+ * =========================================
+ * Navigation Styles
+ * =========================================
+ */
+.navbar {
+  background: #111; }
+
+nav li a {
+  background: #111;
+  padding: 20px;
+  font-family: "Hind", sans-serif;
+  font-weight: 900;
+  color: #FFDC00;
+  font-size: 18px;
+  text-transform: uppercase; }
+  nav li a:hover {
+    background: #222 !important; }
+nav .open > a {
+  background: #222 !important;
+  /* Bootstrap override */ }
+nav .dropdown-menu {
+  padding-top: 0;
+  padding-bottom: 0; }
+  nav .dropdown-menu li {
+    border-bottom: 1px solid #222; }
+    nav .dropdown-menu li:last-child {
+      border-bottom: none; }
+    nav .dropdown-menu li a {
+      padding: 10px;
+      font-family: "Hind", sans-serif;
+      font-weight: 900;
+      text-transform: uppercase; }
+
+/* End Navigation Styles */
 /**
  * =========================================
  * Team Page Styles

@@ -1,7 +1,7 @@
 
 <div class="container-fluid">
     <div class="container">
-        <nav class="navbar navbar-inverse">
+        <nav class="navbar">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
@@ -16,21 +16,21 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li class="active"><a href="#">Info</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="#">Info</a></li>
                         
                         <!-- START: Teams -->
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Teams <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="#">All</a></li>
-                                <li><a href="#">Blue</a></li>
-                                <li><a href="#">Black</a></li>
-                                <li><a href="#">Red</a></li>
-                                <li><a href="#">White</a></li>
-                                <li><a href="#">Yellow</a></li>
-                                <li><a href="#">Maroon</a></li>
-                                <li><a href="#">Green</a></li>
+                                <li><a href="team-blue.php" class="text-blue">Blue</a></li>
+                                <li><a href="team-black.php" class="text-black">Black</a></li>
+                                <li><a href="team-red.php" class="text-red">Red</a></li>
+                                <li><a href="team-white.php" class="text-white">White</a></li>
+                                <li><a href="team-yellow.php" class="text-yellow">Yellow</a></li>
+                                <li><a href="team-maroon.php" class="text-maroon">Maroon</a></li>
+                                <li><a href="team-green.php" class="text-green">Green</a></li>
                                 <!--<li role="separator" class="divider"></li>-->
                             </ul>
                         </li>
