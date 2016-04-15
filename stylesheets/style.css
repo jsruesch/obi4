@@ -150,6 +150,27 @@ nav li a {
   text-transform: uppercase; }
   nav li a:hover {
     background: #222 !important; }
+  nav li a.bg-grey:hover {
+    background: #111 !important;
+    opacity: .7; }
+  nav li a.bg-blue:hover {
+    background: #0064CA !important;
+    opacity: .7; }
+  nav li a.bg-red:hover {
+    background: #C60606 !important;
+    opacity: .7; }
+  nav li a.bg-white:hover {
+    background: #fff !important;
+    opacity: .7; }
+  nav li a.bg-yellow:hover {
+    background: #FFDC00 !important;
+    opacity: .7; }
+  nav li a.bg-maroon:hover {
+    background: #3F111E !important;
+    opacity: .7; }
+  nav li a.bg-green:hover {
+    background: #0BC500 !important;
+    opacity: .7; }
 nav .open > a {
   background: #222 !important;
   /* Bootstrap override */ }
@@ -195,7 +216,7 @@ nav .dropdown-menu {
 
 .team-header-desktop {
   position: relative;
-  height: 300px; }
+  height: 170px; }
   .team-header-desktop .team-name {
     position: absolute;
     bottom: 20px;
@@ -234,6 +255,16 @@ nav .dropdown-menu {
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 300; }
+
+.gm {
+  float: right;
+  padding: 5px 3px 0 3px;
+  margin-top: 2px;
+  background: #FFDC00;
+  color: #111;
+  font-family: "Hind", sans-serif;
+  font-weight: 900;
+  font-size: 12px; }
 
 /* End Team Page Styles */
 /**

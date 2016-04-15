@@ -122,9 +122,14 @@ nav{
             font-size: 18px;
             text-transform: uppercase;
             
-            &:hover{
-                background: #222 !important;
-            }
+            &:hover{ background: #222 !important; }
+            &.bg-grey:hover{    background: $grey !important; opacity: .7; }
+            &.bg-blue:hover{    background: $blue !important; opacity: .7; }
+            &.bg-red:hover{     background: $red !important; opacity: .7; }
+            &.bg-white:hover{   background: $white !important; opacity: .7; }
+            &.bg-yellow:hover{  background: $yellow !important; opacity: .7; }
+            &.bg-maroon:hover{  background: $maroon !important; opacity: .7; }
+            &.bg-green:hover{   background: $green !important; opacity: .7; }
         }
     }
     
@@ -184,7 +189,7 @@ nav{
 
 .team-header-desktop{
     position: relative;
-    height: 300px;
+    height: 170px;
     
     .team-name{
         position: absolute;
@@ -242,6 +247,17 @@ nav{
             }
         }
     } 
+}
+
+.gm{
+    float: right;
+    padding: 5px 3px 0 3px;
+    margin-top: 2px;
+    background: $gold;
+    color: $grey;
+    font-family: $hind;
+    font-weight: 900;
+    font-size: 12px;
 }
 /* End Team Page Styles */
 

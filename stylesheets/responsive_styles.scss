@@ -34,11 +34,27 @@
     .navbar-nav>li:last-child{ border-bottom: none; }
     
     .navbar-nav .open .dropdown-menu>li>a{
-        background: #000;
         padding-top: 10px !important;
         padding-bottom: 5px !important;
         padding-left: 30px !important;
         line-height: normal !important;
+    }
+    
+    .opponent ul{ 
+        list-style:none; 
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+
+    .team-schedule{
+        .rink{ font-size: 13px; }
+        table{ margin-bottom: 15px; margin-top: -15px; }
+        table tr th{ color: #fff; font-size: 17px; }
+        table tr td{ 
+            padding: 5px 10px;
+            font-size: 13px;
+            font-weight: 700;
+        }
     }
 }
 /* End of media queries */

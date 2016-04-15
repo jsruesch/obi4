@@ -6,13 +6,13 @@
     <div class="container">
         
         <!-- Team Header Desktop -->
-        <div class="col-sm-12 team-header-desktop bg-grey">
-            <div class="team-name"><p>Team<br/><strong>Name</strong></p></div>
+        <div class="col-sm-12 team-header-desktop bg-white">
+            <div class="team-name"><p class="text-grey">Team<br/><strong>White</strong></p></div>
         </div>
         
         <!-- Team Header Mobile -->
         <div class="col-sm-12 team-header-mobile bg-white">
-            <div class="team-name"><p class="text-grey">Team <strong>Name</strong></p></div>
+            <div class="team-name"><p class="text-grey">Team <strong>White</strong></p></div>
         </div>
         
         <!-- Schedule -->
