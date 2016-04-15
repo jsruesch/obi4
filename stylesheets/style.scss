@@ -82,6 +82,17 @@ ul{
 
     /* End Bootstrap Overrides */
 
+.jumbotron{
+    margin-top: -90px;
+    
+    .jt-home{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
+
+.mc{ margin-top: -60px;}
+
 /* End Global Styles */
 
 
@@ -92,7 +103,7 @@ ul{
  */
 
 .navbar{ 
-    background: $grey;
+    background: none;
     margin-top: 20px !important;
 }
 
