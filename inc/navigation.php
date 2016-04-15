@@ -40,7 +40,7 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Schedule <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">All Days</a></li>
+                                <li><a href="#">Full Schedule</a></li>
                                 <li><a href="#">Friday</a></li>
                                 <li><a href="#">Saturday</a></li>
                                 <li><a href="#">Sunday</a></li>
@@ -48,8 +48,6 @@
                             </ul>
                         </li>
                         <!-- END: Schedule -->
-                        
-                        <li><a href="#">Player Pool</a></li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
