@@ -34,8 +34,17 @@ h1,h2,h3,h4{
 
 p{ color: #fff; font-family: $hind; }
 
+a{
+    color: $gold !important;
+    
+    &:hover{
+        color: #fff !important;
+        text-decoration:none !important;
+    }
+}
+
 ul{
-    padding-left: 40px;
+    padding-left: 20px;
     
     li{
         font-family: $hind;
@@ -43,6 +52,7 @@ ul{
     }
 }
 
+.text-gold{     color: $gold; }
 .text-white{    color: $white; }
 .text-blue{     color: $blue; }
 .text-black{    color: $black; }
@@ -51,4 +61,65 @@ ul{
 .text-maroon{   color: $maroon; }
 .text-green{    color: $green; }
 
+    /* Bootstrap Overrides */
+
+    .container-fluid{ 
+        padding-left: 0 !important; 
+        padding-right: 0 !important;
+    }
+
+    /* End Bootstrap Overrides */
+
 /* End Global Styles */
+
+
+/**
+ * =========================================
+ * Team Page Styles
+ * =========================================
+ */
+
+.team-header-desktop{
+    display: block;
+    height: 300px;
+    background: red;
+}
+
+.team-header-mobile{
+    display: none; 
+    height: 100px;
+    background: yellow;
+}
+
+.team-schedule{
+    table{
+        width: 100%;
+    }
+}
+
+/* End Team Page Styles */
+
+
+/**
+ * =========================================
+ * Footer
+ * =========================================
+ */
+
+.footer{
+    
+    .footer-snapshot{
+        background: #111;
+        padding-top: 15px;
+        
+        ul{
+            li{
+                font-family: $hind;
+                font-weight: 900;
+                text-transform: uppercase; 
+            }
+        }
+    }
+}
+
+/* End Footer */

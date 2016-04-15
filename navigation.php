@@ -32,7 +32,6 @@
                                 <li><a href="#">Maroon</a></li>
                                 <li><a href="#">Green</a></li>
                                 <!--<li role="separator" class="divider"></li>-->
-                                
                             </ul>
                         </li>
                         <!-- END: Teams -->
