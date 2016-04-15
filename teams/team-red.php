@@ -1,0 +1,33 @@
+<?php include('../header.php') ?>
+<?php include('../navigation.php') ?>  
+
+<!-- START: Main Content -->
+<div class="container-fluid">
+    <div class="container">
+        
+        <!-- Team Header Desktop -->
+        <div class="col-sm-12 team-header-desktop bg-grey">
+            <div class="team-name"><p>Team<br/><strong>Name</strong></p></div>
+        </div>
+        
+        <!-- Team Header Mobile -->
+        <div class="col-sm-12 team-header-mobile bg-grey">
+            <div class="team-name"><p>Team <strong>Name</strong></p></div>
+        </div>
+        
+        <!-- Schedule -->
+        <div class="col-sm-6">
+            <div class="team-schedule"><?php require('../schedules/schedule-red.php'); ?></div>   
+        </div>
+        
+        <!-- Roster -->
+        <div class="col-sm-6 roster">
+            <div class="team-roster"><?php require('../rosters/roster-red.php'); ?></div>  
+        </div>
+        
+    </div>
+</div>
+<!-- END: Main Contenr -->
+
+<?php include('../footer.php') ?> 
+

@@ -80,6 +80,36 @@ ul {
 .text-green {
   color: #BA8192; }
 
+.text-grey {
+  color: #111; }
+
+.bg-gold {
+  background: #FFDC00; }
+
+.bg-white {
+  background: #fff; }
+
+.bg-blue {
+  background: #0064CA; }
+
+.bg-black {
+  background: #BABABA; }
+
+.bg-red {
+  background: #C60606; }
+
+.bg-yellow {
+  background: #FFDC00; }
+
+.bg-maroon {
+  background: #BA8192; }
+
+.bg-green {
+  background: #BA8192; }
+
+.bg-grey {
+  background: #111; }
+
 /* Bootstrap Overrides */
 .container-fluid {
   padding-left: 0 !important;
@@ -92,18 +122,82 @@ ul {
  * Team Page Styles
  * =========================================
  */
+.rink {
+  font-size: 15px;
+  color: #fff;
+  font-weight: 300;
+  text-transform: uppercase; }
+
+.game-time {
+  font-family: "Hind", sans-serif;
+  color: #FFDC00;
+  font-weight: 900;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase; }
+
+.opponent {
+  font-family: "Hind", sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase; }
+
 .team-header-desktop {
-  display: block;
-  height: 300px;
-  background: red; }
+  position: relative;
+  height: 300px; }
+  .team-header-desktop .team-name {
+    position: absolute;
+    bottom: 20px;
+    left: 35px; }
+    .team-header-desktop .team-name p {
+      font-family: "Hind", sans-serif;
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 50px;
+      line-height: 50px; }
 
 .team-header-mobile {
-  display: none;
-  height: 100px;
-  background: yellow; }
+  display: none; }
+  .team-header-mobile .team-name p {
+    padding: 20px 0 15px 0;
+    font-family: "Hind", sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 33px;
+    text-align: center; }
 
 .team-schedule table {
   width: 100%; }
+  .team-schedule table tr th {
+    padding: 25px 0 5px 0;
+    font-family: "Hind", sans-serif;
+    color: #FFDC00;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 25px; }
+  .team-schedule table tr td {
+    width: 50%;
+    border: 1px solid #333;
+    padding: 20px; }
+
+.team-roster table {
+  width: 100%; }
+  .team-roster table tr th {
+    padding: 25px 0 5px 0;
+    font-family: "Hind", sans-serif;
+    color: #FFDC00;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 25px; }
+  .team-roster table tr td {
+    border-bottom: 1px solid #333;
+    padding: 10px 0;
+    font-family: "Hind", sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 300; }
 
 /* End Team Page Styles */
 /**
