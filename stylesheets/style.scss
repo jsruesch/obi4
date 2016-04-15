@@ -217,6 +217,16 @@ nav{
     }
 }
 
+.schedule-container{ 
+    padding: 20px; 
+    margin-bottom: 20px;
+    background: $grey;
+    
+    .team-schedule table tr th{
+        padding-top: 0;
+    }
+}
+
 .team-schedule{
     table{
         width: 100%;
@@ -267,6 +277,7 @@ nav{
     } 
 }
 /* End Team Page Styles */
+
 
 
 /**

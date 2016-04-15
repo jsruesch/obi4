@@ -40,10 +40,10 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Schedule <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Full Schedule</a></li>
-                                <li><a href="#">Friday</a></li>
-                                <li><a href="#">Saturday</a></li>
-                                <li><a href="#">Sunday</a></li>
+                                <li><a href="schedule-full.php">Full Schedule</a></li>
+                                <li><a href="schedule-friday.php">Friday</a></li>
+                                <li><a href="schedule-saturday.php">Saturday</a></li>
+                                <li><a href="schedule-sunday.php">Sunday</a></li>
                                 
                             </ul>
                         </li>
