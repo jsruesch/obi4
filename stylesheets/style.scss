@@ -217,6 +217,41 @@ nav{
     }
 }
 
+.team-roster{
+    table{
+        width: 100%;
+        
+        tr{ 
+            th{
+                padding: 25px 0 5px 0;
+                font-family: $hind;
+                color: $gold;
+                font-weight: 900;
+                text-transform: uppercase;
+                font-size: 25px;
+            }
+            
+            td{
+                border-bottom: 1px solid #333;
+                padding: 10px 0;
+                font-family: $hind;
+                color: #fff;
+                text-transform: uppercase;
+                font-size: 18px;
+                font-weight: 300;
+            }
+        }
+    } 
+}
+/* End Team Page Styles */
+
+
+/**
+ * =========================================
+ * Schedule Styles
+ * =========================================
+ */
+
 .schedule-container{ 
     padding: 20px; 
     margin-bottom: 20px;
@@ -250,34 +285,24 @@ nav{
     } 
 }
 
-.team-roster{
-    table{
-        width: 100%;
-        
-        tr{ 
-            th{
-                padding: 25px 0 5px 0;
-                font-family: $hind;
-                color: $gold;
-                font-weight: 900;
-                text-transform: uppercase;
-                font-size: 25px;
-            }
-            
-            td{
-                border-bottom: 1px solid #333;
-                padding: 10px 0;
-                font-family: $hind;
-                color: #fff;
-                text-transform: uppercase;
-                font-size: 18px;
-                font-weight: 300;
-            }
-        }
-    } 
+.opponent ul{ 
+    list-style:none; 
+    padding-left: 0;
+    margin-bottom: 0;
 }
-/* End Team Page Styles */
 
+.schedule-overview{
+    .rink{ font-size: 13px; }
+    table{ margin-bottom: 15px; margin-top: -15px; }
+    table tr th{ color: #fff; font-size: 17px; }
+    table tr td{ 
+        padding: 5px 10px;
+        font-size: 13px;
+        font-weight: 700;
+    }
+}
+
+/* End Schedule Styles*/
 
 
 /**

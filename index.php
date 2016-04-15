@@ -12,8 +12,22 @@
 
 <div class="container-fluid">
     <div class="container">
-        <div class="col-sm-6 box">ff</div>
-        <div class="col-sm-3 col-sm-offset-2 box">ff</div>
+        <div class="col-sm-12 bg-gold">
+            <h1 class="text-center text-grey">June 10-12</h1>
+        </div>
+        
+        <!-- schedule-overview -->
+        <div class="schedule-overview">
+            <div class="col-sm-4 bg-grey">
+                <div class="team-schedule"><?php require_once('schedules/friday.php') ?></div>
+            </div>
+            <div class="col-sm-4 bg-grey">
+                <div class="team-schedule"><?php require_once('schedules/saturday.php') ?></div>
+            </div>
+            <div class="col-sm-4 bg-grey">
+                <div class="team-schedule"><?php require_once('schedules/sunday.php') ?></div>
+            </div>
+        </div><!-- /.schedule-overview -->
     </div>
 </div>
 <!-- END: Main Contenr -->
