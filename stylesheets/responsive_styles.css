@@ -27,7 +27,27 @@
     display: none; }
 
   .team-header-mobile {
-    display: block; } }
+    display: block; }
+
+  .navbar-nav > li > a {
+    padding-top: 15px !important;
+    padding-bottom: 10px !important;
+    padding-left: 15px !important;
+    line-height: normal !important; }
+
+  .navbar-nav > li {
+    border-bottom: 1px solid #222;
+    padding-left: 15px; }
+
+  .navbar-nav > li:last-child {
+    border-bottom: none; }
+
+  .navbar-nav .open .dropdown-menu > li > a {
+    background: #000;
+    padding-top: 10px !important;
+    padding-bottom: 5px !important;
+    padding-left: 30px !important;
+    line-height: normal !important; } }
 /* End of media queries */
 
 /*# sourceMappingURL=responsive_styles.css.map */

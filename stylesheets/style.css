@@ -123,7 +123,20 @@ ul {
  * =========================================
  */
 .navbar {
-  background: #111; }
+  background: #111;
+  margin-left: -15px !important;
+  margin-right: -15px !important; }
+
+.navbar-toggle {
+  padding: 15px;
+  margin-right: 30px !important; }
+  .navbar-toggle .icon-bar {
+    height: 1px;
+    width: 30px;
+    padding-bottom: 2px;
+    background: #FFDC00;
+    border-radius: 0 !important;
+    margin-bottom: 5px; }
 
 nav li a {
   background: #111;
