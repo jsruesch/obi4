@@ -125,7 +125,7 @@ ul{
 nav{
     li{
         a{
-            background: $grey;
+            
             padding: 20px;
             font-family: $hind;
             font-weight: 900;
@@ -133,7 +133,7 @@ nav{
             font-size: 18px;
             text-transform: uppercase;
             
-            &:hover{ background: #222 !important; }
+            &:hover{            background: none !important; }
             &.bg-grey:hover{    background: $grey !important; opacity: .7; }
             &.bg-blue:hover{    background: $blue !important; opacity: .7; }
             &.bg-red:hover{     background: $red !important; opacity: .7; }

@@ -150,7 +150,6 @@ ul {
     margin-bottom: 5px; }
 
 nav li a {
-  background: #111;
   padding: 20px;
   font-family: "Hind", sans-serif;
   font-weight: 900;
@@ -158,7 +157,7 @@ nav li a {
   font-size: 18px;
   text-transform: uppercase; }
   nav li a:hover {
-    background: #222 !important; }
+    background: none !important; }
   nav li a.bg-grey:hover {
     background: #111 !important;
     opacity: .7; }
