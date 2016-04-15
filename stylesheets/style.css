@@ -87,31 +87,31 @@ ul {
   color: #111 !important; }
 
 .bg-gold {
-  background: #FFDC00; }
+  background: #FFDC00 !important; }
 
 .bg-white {
-  background: #fff; }
+  background: #fff !important; }
 
 .bg-blue {
-  background: #0064CA; }
+  background: #0064CA !important; }
 
 .bg-black {
-  background: #BABABA; }
+  background: #BABABA !important; }
 
 .bg-red {
-  background: #C60606; }
+  background: #C60606 !important; }
 
 .bg-yellow {
-  background: #FFDC00; }
+  background: #FFDC00 !important; }
 
 .bg-maroon {
-  background: #3F111E; }
+  background: #3F111E !important; }
 
 .bg-green {
-  background: #0BC500; }
+  background: #0BC500 !important; }
 
 .bg-grey {
-  background: #111; }
+  background: #111 !important; }
 
 /* Bootstrap Overrides */
 .container-fluid {

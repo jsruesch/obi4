@@ -4,8 +4,8 @@
 <!-- START: Main Content -->
 
 <!-- jumbotron -->
-<div class="jumbotron">
-    <div class="container bg-blue">
+<div class="jumbotron  bg-blue">
+    <div class="container">
             <h1 class="text-white">Team <br /> <strong>Blue</strong></h1>
     </div>
 </div><!-- ./jumbotron -->
