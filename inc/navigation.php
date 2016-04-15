@@ -17,7 +17,6 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="index.php">Home</a></li>
-                        <li><a href="#">Info</a></li>
                         
                         <!-- START: Teams -->
                         <li class="dropdown">
@@ -48,6 +47,7 @@
                             </ul>
                         </li>
                         <!-- END: Schedule -->
+                        <li><a href="#" class="text-white">Sign Up</a></li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
