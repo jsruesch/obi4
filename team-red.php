@@ -1,5 +1,5 @@
-<?php include('../header.php') ?>
-<?php include('../navigation.php') ?>  
+<?php require_once('inc/header.php'); ?>
+<?php require_once('inc/navigation.php'); ?> 
 
 <!-- START: Main Content -->
 <div class="container-fluid">
@@ -17,17 +17,17 @@
         
         <!-- Schedule -->
         <div class="col-sm-6">
-            <div class="team-schedule"><?php require('../schedules/schedule-white.php'); ?></div>   
+            <div class="team-schedule"><?php require_once('schedules/schedule-red.php'); ?></div>   
         </div>
         
         <!-- Roster -->
         <div class="col-sm-6 roster">
-            <div class="team-roster"><?php require('../rosters/roster-white.php'); ?></div>  
+            <div class="team-roster"><?php require_once('rosters/roster-red.php'); ?></div>  
         </div>
         
     </div>
 </div>
 <!-- END: Main Contenr -->
 
-<?php include('../footer.php') ?> 
+<?php require_once('footer.php') ?> 
 

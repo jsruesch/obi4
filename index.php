@@ -1,5 +1,5 @@
-<?php include('header.php') ?>
-<?php include('navigation.php') ?>  
+<?php require_once('inc/header.php') ?>
+<?php require_once('inc/navigation.php') ?>  
 
 <!-- START: Main Content -->
 <!-- jumbotron -->
@@ -18,5 +18,5 @@
 </div>
 <!-- END: Main Contenr -->
 
-<?php include('footer.php') ?> 
+<?php require_once('inc/footer.php') ?> 
 
