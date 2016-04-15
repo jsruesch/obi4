@@ -29,7 +29,7 @@
                 <li class="text-white">Sun Prairie Ice Arena</li>
                 <li class="text-white">
                     <span class="text-gold">Questions?</span> Email Tourney Coordinator Dan Buss: 
-                    <a href="#" target="_blank">danbuss1@gmail.com</a>
+                    <a href="mailto:danbuss1@gmail.com" target="_blank">danbuss1@gmail.com</a>
                 </li>
             </ul>
         </div>

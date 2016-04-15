@@ -29,7 +29,7 @@
                                 <li><a href="team-red.php" class="text-red">Red</a></li>
                                 <li><a href="team-white.php" class="text-white">White</a></li>
                                 <li><a href="team-yellow.php" class="text-yellow">Yellow</a></li>
-                                <li><a href="team-maroon.php" class="text-maroon">Maroon</a></li>
+                                <li><a href="team-maroon.php" class="text-maroonlt">Maroon</a></li>
                                 <li><a href="team-green.php" class="text-green">Green</a></li>
                                 <!--<li role="separator" class="divider"></li>-->
                             </ul>

@@ -29,6 +29,11 @@
   .team-header-mobile {
     display: block; }
 
+  .navbar {
+    margin-top: 0 !important;
+    margin-left: -15px !important;
+    margin-right: -15px !important; }
+
   .navbar-nav > li > a {
     padding-top: 15px !important;
     padding-bottom: 10px !important;

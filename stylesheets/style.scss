@@ -24,7 +24,7 @@
     }
 
 html{ overflow: scroll; }
-html, body{  background: #000 !important; }
+html, body{  background: url('../images/temp-bg.png') #000 50% 0 no-repeat !important; }
 
 h1,h2,h3,h4{
     font-family: $hind !important;
@@ -59,6 +59,7 @@ ul{
 .text-red{      color: $red !important; }
 .text-yellow{   color: $yellow !important; }
 .text-maroon{   color: $maroon !important; }
+.text-maroonlt{ color: $maroonlt !important; }
 .text-green{    color: $green !important; }
 .text-grey{     color: $grey !important; }
 
@@ -92,8 +93,7 @@ ul{
 
 .navbar{ 
     background: $grey;
-    margin-left: -15px !important;
-    margin-right: -15px !important;
+    margin-top: 20px !important;
 }
 
 .navbar-toggle{

@@ -11,7 +11,7 @@
         </div>
         
         <!-- Team Header Mobile -->
-        <div class="col-sm-12 team-header-mobile bg-grey">
+        <div class="col-sm-12 team-header-mobile bg-blue">
             <div class="team-name"><p>Team <strong>Name</strong></p></div>
         </div>
         

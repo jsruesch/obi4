@@ -33,7 +33,7 @@ html {
   overflow: scroll; }
 
 html, body {
-  background: #000 !important; }
+  background: url("../images/temp-bg.png") #000 50% 0 no-repeat !important; }
 
 h1, h2, h3, h4 {
   font-family: "Hind", sans-serif !important;
@@ -75,6 +75,9 @@ ul {
   color: #FFDC00 !important; }
 
 .text-maroon {
+  color: #3F111E !important; }
+
+.text-maroonlt {
   color: #BA8192 !important; }
 
 .text-green {
@@ -102,7 +105,7 @@ ul {
   background: #FFDC00; }
 
 .bg-maroon {
-  background: #BA8192; }
+  background: #3F111E; }
 
 .bg-green {
   background: #0BC500; }
@@ -124,8 +127,7 @@ ul {
  */
 .navbar {
   background: #111;
-  margin-left: -15px !important;
-  margin-right: -15px !important; }
+  margin-top: 20px !important; }
 
 .navbar-toggle {
   padding: 15px;
