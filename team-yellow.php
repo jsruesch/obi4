@@ -2,26 +2,22 @@
 <?php require_once('inc/navigation.php'); ?>
 
 <!-- START: Main Content -->
+<!-- jumbotron -->
+<div class="jumbotron  bg-yellow">
+    <div class="container">
+            <h1 class="text-grey">Team <br /> Yellow</h1>
+    </div>
+</div><!-- ./jumbotron -->
 <div class="container-fluid">
     <div class="container">
         
-        <!-- Team Header Desktop -->
-        <div class="col-sm-12 team-header-desktop bg-yellow">
-            <div class="team-name"><p class="text-grey">Team<br/><strong>Yellow</strong></p></div>
-        </div>
-        
-        <!-- Team Header Mobile -->
-        <div class="col-sm-12 team-header-mobile bg-yellow">
-            <div class="team-name"><p class="text-grey">Team <strong>Yellow</strong></p></div>
-        </div>
-        
         <!-- Schedule -->
-        <div class="col-sm-6">
+        <div class="col-sm-6 bg-grey mc">
             <div class="team-schedule"><?php require_once('schedules/schedule-yellow.php'); ?></div>   
         </div>
         
         <!-- Roster -->
-        <div class="col-sm-6 roster">
+        <div class="col-sm-6 roster bg-grey mc">
             <div class="team-roster"><?php require_once('rosters/roster-yellow.php'); ?></div>  
         </div>
         

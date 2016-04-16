@@ -22,14 +22,13 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Teams <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#"                 class="bg-grey">All</a></li>
-                                <li><a href="team-blue.php"     class="bg-blue text-white">Blue</a></li>
-                                <li><a href="team-black.php"    class="bg-grey text-white">Black</a></li>
-                                <li><a href="team-red.php"      class="bg-red text-white">Red</a></li>
-                                <li><a href="team-white.php"    class="bg-white text-grey">White</a></li>
-                                <li><a href="team-yellow.php"   class="bg-yellow text-grey">Yellow</a></li>
-                                <li><a href="team-maroon.php"   class="bg-maroon text-white">Maroon</a></li>
-                                <li><a href="team-green.php"    class="bg-green text-white">Green</a></li>
+                                <li><a href="team-blue.php"     class="bg-blue text-white">Team Blue</a></li>
+                                <li><a href="team-black.php"    class="bg-grey text-white">Team Black</a></li>
+                                <li><a href="team-red.php"      class="bg-red text-white">Team Red</a></li>
+                                <li><a href="team-white.php"    class="bg-white text-grey">Team White</a></li>
+                                <li><a href="team-yellow.php"   class="bg-yellow text-grey">Team Yellow</a></li>
+                                <li><a href="team-maroon.php"   class="bg-maroon text-white">Team Maroon</a></li>
+                                <li><a href="team-green.php"    class="bg-green text-white">Team Green</a></li>
                                 <!--<li role="separator" class="divider"></li>-->
                             </ul>
                         </li>
@@ -39,10 +38,10 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Schedule <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="schedule-full.php">Full Schedule</a></li>
-                                <li><a href="schedule-friday.php">Friday</a></li>
-                                <li><a href="schedule-saturday.php">Saturday</a></li>
-                                <li><a href="schedule-sunday.php">Sunday</a></li>
+                                <li><a href="schedule-full.php" class="bg-grey">Full Schedule</a></li>
+                                <li><a href="schedule-friday.php" class="bg-grey">Friday</a></li>
+                                <li><a href="schedule-saturday.php" class="bg-grey">Saturday</a></li>
+                                <li><a href="schedule-sunday.php" class="bg-grey">Sunday</a></li>
                                 
                             </ul>
                         </li>

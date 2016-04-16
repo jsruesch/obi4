@@ -91,7 +91,12 @@ ul{
     }
 }
 
-.mc{ margin-top: -60px;}
+.mc{ 
+    margin-top: -60px;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    padding-bottom: 30px !important;
+}
 
 /* End Global Styles */
 
@@ -133,7 +138,7 @@ nav{
             font-size: 18px;
             text-transform: uppercase;
             
-            &:hover{            background: none !important; }
+            &:hover{            background: $grey !important; }
             &.bg-grey:hover{    background: $grey !important; opacity: .7; }
             &.bg-blue:hover{    background: $blue !important; opacity: .7; }
             &.bg-red:hover{     background: $red !important; opacity: .7; }

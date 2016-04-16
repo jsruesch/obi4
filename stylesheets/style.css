@@ -126,7 +126,10 @@ ul {
     padding-bottom: 80px; }
 
 .mc {
-  margin-top: -60px; }
+  margin-top: -60px;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  padding-bottom: 30px !important; }
 
 /* End Global Styles */
 /**
@@ -157,7 +160,7 @@ nav li a {
   font-size: 18px;
   text-transform: uppercase; }
   nav li a:hover {
-    background: none !important; }
+    background: #111 !important; }
   nav li a.bg-grey:hover {
     background: #111 !important;
     opacity: .7; }
