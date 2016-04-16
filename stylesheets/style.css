@@ -198,6 +198,9 @@ nav .dropdown-menu {
       font-weight: 900;
       text-transform: uppercase; }
 
+.nav > li > a:focus {
+  background-color: none !important; }
+
 /* End Navigation Styles */
 /**
  * =========================================

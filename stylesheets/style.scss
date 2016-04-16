@@ -171,6 +171,9 @@ nav{
     }
 }
 
+.nav>li>a:focus{
+    background-color: none !important;
+}
 /* End Navigation Styles */
 
 
