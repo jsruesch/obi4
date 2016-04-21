@@ -3,7 +3,7 @@
 
 <!-- START: Main Content -->
 <!-- jumbotron -->
-<div class="jumbotron  bg-blue">
+<div class="jumbotron bg-blue">
     <div class="container">
             <h1 class="text-white">Team <br /> Blue</h1>
     </div>

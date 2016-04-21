@@ -89,7 +89,7 @@ ul{
         padding-top: 80px;
         padding-bottom: 80px;
     }
-}
+} 
 
 .mc{ 
     margin-top: -60px;
@@ -97,6 +97,35 @@ ul{
     padding-right: 30px !important;
     padding-bottom: 30px !important;
 }
+
+.button{
+    border: none;
+    padding: 10px 20px;
+    font-family: $hind;
+    font-weight: 900;
+    font-size: 20px;
+    text-transform:uppercase;
+}
+.button-gold{
+    background: $gold;
+    color: $grey;
+    
+    &:hover{
+        background: #fbe13c;
+        color: #333;
+    }
+}
+.button-grey{
+    background: $grey;
+    color: $gold;
+    
+    &:hover{
+        background: #222;
+        color: #fff;
+    }
+}
+
+.full{ width: 100%; float: left; }
 
 /* End Global Styles */
 
@@ -130,15 +159,14 @@ ul{
 nav{
     li{
         a{
-            
-            padding: 20px;
             font-family: $hind;
+            background: $grey;
             font-weight: 900;
             color: $gold;
             font-size: 18px;
             text-transform: uppercase;
             
-            &:hover{            background: $grey !important; }
+            &:hover{            background: #222 !important; }
             &.bg-grey:hover{    background: $grey !important; opacity: .7; }
             &.bg-blue:hover{    background: $blue !important; opacity: .7; }
             &.bg-red:hover{     background: $red !important; opacity: .7; }
@@ -152,6 +180,9 @@ nav{
     .open>a{
         background: #222 !important; /* Bootstrap override */
     }
+    .open>.dropdown-toggle:visited{
+        background: none !important;
+    }
     .dropdown-menu{
         padding-top: 0;
         padding-bottom: 0;
@@ -162,7 +193,7 @@ nav{
             &:last-child{ border-bottom: none; }
             
             a{
-                padding: 10px;
+                padding: 15px 15px 10px 15px !important;
                 font-family: $hind;
                 font-weight: 900;
                 text-transform: uppercase;
@@ -171,6 +202,7 @@ nav{
     }
 }
 
+.navbar-nav>li>a{ padding-top: 20px !important; }
 .nav>li>a:focus{
     background-color: none !important;
 }
@@ -278,6 +310,7 @@ nav{
     font-weight: 900;
     font-size: 12px;
 }
+
 /* End Team Page Styles */
 
 
@@ -339,6 +372,26 @@ nav{
 
 /* End Schedule Styles*/
 
+/**
+ * =========================================
+ * Misc
+ * =========================================
+ */
+
+.team-list{
+    div{ padding: 10px; }
+    
+    p{
+        margin-bottom: 0; /* Bootstrap Override */
+        font-family: $hind;
+        text-align: center;
+        font-weight: 900;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+}
+
+/* End Misc */
 
 /**
  * =========================================

@@ -131,6 +131,32 @@ ul {
   padding-right: 30px !important;
   padding-bottom: 30px !important; }
 
+.button {
+  border: none;
+  padding: 10px 20px;
+  font-family: "Hind", sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  text-transform: uppercase; }
+
+.button-gold {
+  background: #FFDC00;
+  color: #111; }
+  .button-gold:hover {
+    background: #fbe13c;
+    color: #333; }
+
+.button-grey {
+  background: #111;
+  color: #FFDC00; }
+  .button-grey:hover {
+    background: #222;
+    color: #fff; }
+
+.full {
+  width: 100%;
+  float: left; }
+
 /* End Global Styles */
 /**
  * =========================================
@@ -153,14 +179,14 @@ ul {
     margin-bottom: 5px; }
 
 nav li a {
-  padding: 20px;
   font-family: "Hind", sans-serif;
+  background: #111;
   font-weight: 900;
   color: #FFDC00;
   font-size: 18px;
   text-transform: uppercase; }
   nav li a:hover {
-    background: #111 !important; }
+    background: #222 !important; }
   nav li a.bg-grey:hover {
     background: #111 !important;
     opacity: .7; }
@@ -185,6 +211,8 @@ nav li a {
 nav .open > a {
   background: #222 !important;
   /* Bootstrap override */ }
+nav .open > .dropdown-toggle:visited {
+  background: none !important; }
 nav .dropdown-menu {
   padding-top: 0;
   padding-bottom: 0; }
@@ -193,10 +221,13 @@ nav .dropdown-menu {
     nav .dropdown-menu li:last-child {
       border-bottom: none; }
     nav .dropdown-menu li a {
-      padding: 10px;
+      padding: 15px 15px 10px 15px !important;
       font-family: "Hind", sans-serif;
       font-weight: 900;
       text-transform: uppercase; }
+
+.navbar-nav > li > a {
+  padding-top: 20px !important; }
 
 .nav > li > a:focus {
   background-color: none !important; }
@@ -326,6 +357,23 @@ nav .dropdown-menu {
   font-weight: 700; }
 
 /* End Schedule Styles*/
+/**
+ * =========================================
+ * Misc
+ * =========================================
+ */
+.team-list div {
+  padding: 10px; }
+.team-list p {
+  margin-bottom: 0;
+  /* Bootstrap Override */
+  font-family: "Hind", sans-serif;
+  text-align: center;
+  font-weight: 900;
+  font-size: 18px;
+  text-transform: uppercase; }
+
+/* End Misc */
 /**
  * =========================================
  * Footer
