@@ -22,6 +22,12 @@
  * =========================================
  */
 @media (max-width: 767px) {
+  .obi-logo {
+    display: none; }
+
+  .obi-logo-mobile {
+    display: block; }
+
   /* Nav */
   .navbar {
     background: #111;
