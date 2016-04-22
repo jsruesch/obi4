@@ -3,7 +3,7 @@
 
 <!-- START: Main Content -->
 <!-- jumbotron -->
-<div class="jumbotron">
+<div class="jumbotron banner-home">
     <div class="container jt-home">
         
         <div class="col-sm-7 col-sm-offset-5">
