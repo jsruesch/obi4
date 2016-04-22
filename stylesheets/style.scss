@@ -26,7 +26,7 @@
 html{ overflow: scroll; }
 html, body{  background: url('../images/temp-bg.png') #000 50% 0 no-repeat !important; }
 
-h1,h2,h3,h4{
+h1,h2,h3,h4,h5{
     font-family: $hind !important;
     font-weight: 900  !important;
     text-transform: uppercase;
@@ -86,9 +86,12 @@ ul{
     margin-top: -155px;
     
     .jt-home{
-        padding-top: 80px;
-        padding-bottom: 80px;
+        padding-top: 100px;
+        padding-bottom: 70px;
+        
+        button{ margin-top: 25px; }
     }
+    
 } 
 
 .mc{ 
@@ -214,7 +217,7 @@ nav{
     z-index: 999;
     height: 150px;
     width: 125px;
-    margin: -40px -25px 0 0;
+    margin: -45px -25px 0 0;
     background: url(../images/obi-logo-small.png);
 }
 

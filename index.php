@@ -5,10 +5,21 @@
 <!-- jumbotron -->
 <div class="jumbotron">
     <div class="container jt-home">
-        <div class="col-sm-6 bg-grey">
-            <h1 class="text-gold">June <span class="text-white">10-12</span></h1>
-            <button class="button button-gold">Sign Up</button>
+        
+        <div class="col-sm-7 col-sm-offset-5">
+            <div class="col-sm-12 bg-grey">
+                <div class="col-sm-8">
+                    <h1 class="text-gold">June <span class="text-white">10-12</span></h1>
+                </div>
+                <div class="col-sm-4">
+                    <button class="button button-gold pull-right">Sign Up</button>
+                </div>
+            </div>
+            <div class="col-sm-12 bg-gold">
+                <h5 class="text-grey text-center">Questions? Contact Dan Buss the tournament coordinator</h5>
+            </div>
         </div>
+        
     </div>
 </div><!-- ./jumbotron -->
 
