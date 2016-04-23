@@ -133,6 +133,10 @@ ul {
   max-height: 400px;
   margin-top: -22px;
   overflow: hidden; }
+  .banner-home img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto; }
 
 .mc {
   margin-top: -60px;
@@ -173,6 +177,7 @@ ul {
  * =========================================
  */
 .navbar {
+  z-index: 9999;
   background: none;
   margin-top: 20px !important; }
 
@@ -390,6 +395,7 @@ nav .dropdown-menu {
  * =========================================
  */
 .popover {
+  z-index: 888888 !important;
   border: 2px solid #FFDC00 !important;
   border-radius: 0 !important;
   padding: 0 !important; }

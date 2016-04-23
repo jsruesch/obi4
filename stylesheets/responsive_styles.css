@@ -21,12 +21,21 @@
  * Media Queries
  * =========================================
  */
+@media (min-width: 768px) and (max-width: 992px) {
+  .banner-home img {
+    width: 100%;
+    float: left; } }
 @media (max-width: 767px) {
   .obi-logo {
     display: none; }
 
   .obi-logo-mobile {
     display: block; }
+
+  .banner-home {
+    margin-bottom: -20px; }
+    .banner-home img {
+      width: 370px; }
 
   /* Nav */
   .navbar {

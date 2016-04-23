@@ -7,7 +7,7 @@
     <div class="container jt-home">
         
         <div class="col-sm-5 banner-home">
-            <img class="center-block" src="images/obi-logo-large.png"/>
+            <img src="images/obi-logo-large2.png"/>
         </div>
         <div class="col-sm-7">
             <div class="col-sm-12 bg-grey">
