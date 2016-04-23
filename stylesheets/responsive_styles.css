@@ -33,7 +33,8 @@
     display: block; }
 
   .banner-home {
-    margin-bottom: -20px; }
+    margin-bottom: -20px;
+    margin-top: -10px; }
     .banner-home img {
       width: 370px; }
 

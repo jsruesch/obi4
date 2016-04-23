@@ -119,10 +119,12 @@ ul {
   padding-right: 0 !important; }
 
 /* End Bootstrap Overrides */
+.banner-home-page {
+  background: url("../images/banners/hp-banner-01.png") 50% 0; }
+
 .jumbotron {
   margin-top: -155px; }
   .jumbotron .jt-home {
-    margin-top: -68px !important;
     margin-bottom: -48px !important;
     padding-top: 0 !important;
     padding-bottom: 0 !important; }
@@ -131,7 +133,7 @@ ul {
 
 .banner-home {
   max-height: 400px;
-  margin-top: -22px;
+  margin-top: -42px;
   overflow: hidden; }
   .banner-home img {
     display: block;
