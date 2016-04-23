@@ -400,6 +400,43 @@ nav{
 
 /**
  * =========================================
+ * Popover Styles
+ * =========================================
+ */
+
+.popover{
+    border: 2px solid $gold !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+    
+    .popover-title{
+        border-radius: 0 !important;
+        border: none; 
+        background: $gold;
+        
+        h3{
+            color: $grey;
+            font-family: $hind;
+            font-weight: 900;
+        }
+    }
+    
+    .popover-content{
+        border-radius: 0 !important;
+        border: none !important;
+        background: $grey;
+        color: #fff;
+        font-family: $hind;
+    }
+}
+
+.popover.bottom>.arrow:after{ border-bottom-color: $gold !important; }
+.popover.top>.arrow:after{ border-top-color: $gold !important; }
+
+/* End Popover Styles*/
+
+/**
+ * =========================================
  * Misc
  * =========================================
  */

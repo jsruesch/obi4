@@ -382,6 +382,37 @@ nav .dropdown-menu {
 /* End Schedule Styles*/
 /**
  * =========================================
+ * Popover Styles
+ * =========================================
+ */
+.popover {
+  border: 2px solid #FFDC00 !important;
+  border-radius: 0 !important;
+  padding: 0 !important; }
+  .popover .popover-title {
+    border-radius: 0 !important;
+    border: none;
+    background: #FFDC00; }
+    .popover .popover-title h3 {
+      color: #111;
+      font-family: "Hind", sans-serif;
+      font-weight: 900; }
+  .popover .popover-content {
+    border-radius: 0 !important;
+    border: none !important;
+    background: #111;
+    color: #fff;
+    font-family: "Hind", sans-serif; }
+
+.popover.bottom > .arrow:after {
+  border-bottom-color: #FFDC00 !important; }
+
+.popover.top > .arrow:after {
+  border-top-color: #FFDC00 !important; }
+
+/* End Popover Styles*/
+/**
+ * =========================================
  * Misc
  * =========================================
  */
