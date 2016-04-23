@@ -3,10 +3,13 @@
 
 <!-- START: Main Content -->
 <!-- jumbotron -->
-<div class="jumbotron banner-home">
+<div class="jumbotron">
     <div class="container jt-home">
         
-        <div class="col-sm-7 col-sm-offset-5">
+        <div class="col-sm-5 banner-home">
+            <img class="center-block" src="images/obi-logo-large.png"/>
+        </div>
+        <div class="col-sm-7">
             <div class="col-sm-12 bg-grey">
                 <div class="col-sm-8">
                     <h1 class="text-gold">June <span class="text-white">10-12</span></h1>

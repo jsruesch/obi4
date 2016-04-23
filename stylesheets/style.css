@@ -122,10 +122,17 @@ ul {
 .jumbotron {
   margin-top: -155px; }
   .jumbotron .jt-home {
-    padding-top: 100px;
-    padding-bottom: 70px; }
+    margin-top: -68px !important;
+    margin-bottom: -48px !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important; }
     .jumbotron .jt-home button {
       margin-top: 25px; }
+
+.banner-home {
+  max-height: 400px;
+  margin-top: -22px;
+  overflow: hidden; }
 
 .mc {
   margin-top: -60px;
@@ -251,9 +258,6 @@ nav .dropdown-menu {
   height: 57px;
   width: 125px;
   background: url(../images/obi-logo-small.png) 10px -14px no-repeat; }
-
-.banner-home {
-  background: url("../images/temp-banner.png") 50% 50% no-repeat; }
 
 /* End Navigation Styles */
 /**
