@@ -37,6 +37,12 @@
 </div>
 <!-- END: Footer -->
 
+<!-- Initialize Popover -->
+<script>
+    $(function () {
+      $('[data-toggle="popover"]').popover()
+    })
+</script>
 
 <div class="clear"></div>
 

@@ -12,7 +12,15 @@
                     <h1 class="text-gold">June <span class="text-white">10-12</span></h1>
                 </div>
                 <div class="col-sm-4">
-                    <button class="button button-gold pull-right">Sign Up</button>
+                    <button class="button button-gold pull-right" 
+                            type="button"
+                            data-container="body"
+                            data-toggle="popover" 
+                            data-placement="top" 
+                            title="Signup Currently Unavailable" 
+                            data-content="We're not quite ready to open up sing up just yet. Keep checking back to make sure you know when it's ready to go!">
+                        Sign Up
+                    </button>
                 </div>
             </div>
             <div class="col-sm-12 bg-gold">
@@ -52,6 +60,7 @@
     </div>
 </div>
 <!-- END: Main Contenr -->
+
 
 <?php require_once('inc/footer.php') ?> 
 
