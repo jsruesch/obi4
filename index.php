@@ -11,20 +11,7 @@
         </div>
         <div class="col-sm-7">
             <div class="col-sm-12 bg-grey">
-                <div class="col-sm-8">
-                    <h1 class="text-gold">June <span class="text-white">10-12</span></h1>
-                </div>
-                <div class="col-sm-4">
-                    <button class="button button-gold pull-right" 
-                            type="button"
-                            data-container="body"
-                            data-toggle="popover" 
-                            data-placement="top" 
-                            title="Signup Currently Unavailable" 
-                            data-content="We're not quite ready to open up sing up just yet. Keep checking back to make sure you know when it's ready to go!">
-                        Sign Up
-                    </button>
-                </div>
+                <h1 class="text-gold text-center">June <span class="text-white">10-12</span></h1>
             </div>
             <div class="col-sm-12 bg-gold">
                 <h5 class="text-grey text-center">Questions? Contact Dan Buss the tournament coordinator</h5>
