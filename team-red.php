@@ -3,7 +3,7 @@
 
 <!-- START: Main Content -->
 <!-- jumbotron -->
-<div class="jumbotron  bg-red">
+<div class="jumbotron banner-red">
     <div class="container">
             <h1 class="text-white">Team <br /> Red</h1>
     </div>

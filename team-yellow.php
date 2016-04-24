@@ -3,9 +3,9 @@
 
 <!-- START: Main Content -->
 <!-- jumbotron -->
-<div class="jumbotron  bg-yellow">
+<div class="jumbotron banner-yellow">
     <div class="container">
-            <h1 class="text-grey">Team <br /> Yellow</h1>
+            <h1 class="text-white">Team <br /> Yellow</h1>
     </div>
 </div><!-- ./jumbotron -->
 <div class="container-fluid">

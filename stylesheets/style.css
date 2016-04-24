@@ -122,12 +122,33 @@ ul {
 .banner-home-page {
   background: url("../images/banners/hp-banner-01.png") 50% 0; }
 
+.banner-blue {
+  background: url("../images/banners/banner-blue.png") 50% 0; }
+
+.banner-black {
+  background: url("../images/banners/banner-black.png") 50% 0; }
+
+.banner-white {
+  background: url("../images/banners/banner-white.png") 50% 0; }
+
+.banner-red {
+  background: url("../images/banners/banner-red.png") 50% 0; }
+
+.banner-yellow {
+  background: url("../images/banners/banner-yellow.png") 50% 0; }
+
+.banner-green {
+  background: url("../images/banners/banner-green.png") 50% 0; }
+
+.banner-maroon {
+  background: url("../images/banners/banner-maroon.png") 50% 0; }
+
 .jumbotron {
   margin-top: -155px; }
   .jumbotron .jt-home {
-    margin-bottom: -48px !important;
     padding-top: 0 !important;
-    padding-bottom: 0 !important; }
+    padding-bottom: 30px !important;
+    margin-bottom: -48px !important; }
     .jumbotron .jt-home button {
       margin-top: 25px; }
 
