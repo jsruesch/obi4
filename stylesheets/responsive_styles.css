@@ -102,6 +102,9 @@
     padding-left: 0;
     margin-bottom: 0; }
 
+  .team-list .bg-green p {
+    margin-bottom: 10px; }
+
   .team-schedule .rink {
     font-size: 13px; }
   .team-schedule table {
