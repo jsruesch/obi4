@@ -11,6 +11,8 @@
     
     <!-- Responsive Stylesheet -->
     <link rel="stylesheet" type="text/css" href="stylesheets/responsive_styles.min.css"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
     
     <!-- jQuery -->
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
