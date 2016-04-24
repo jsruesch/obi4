@@ -38,6 +38,14 @@
         }
     }
     
+    .banner-black h1,
+    .banner-blue h1,
+    .banner-white h1,
+    .banner-red h1,
+    .banner-yellow h1,
+    .banner-green h1,
+    .banner-maroon h1 { text-align: center; }
+    
     /* Nav */
     .navbar{ 
         background: $grey;
