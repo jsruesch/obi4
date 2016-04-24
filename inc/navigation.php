@@ -53,7 +53,7 @@
                             data-toggle="popover" 
                             data-placement="bottom" 
                             title="Signup Currently Unavailable" 
-                            data-content="We're not quite ready to open up sing up just yet. Keep checking back to make sure you know when it's ready to go!">Sign Up</a></li>
+                            data-content="We're not quite ready to open up signup just yet. Keep checking back to make sure you know when it's ready to go!">Sign Up</a></li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->

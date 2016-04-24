@@ -31,6 +31,7 @@
     .banner-home{
         margin-bottom: -20px;
         margin-top: -10px;
+        max-height: 250px;
         
         img{
             width: 370px;   
@@ -67,6 +68,26 @@
         .jt-home{
             padding-top: 80px;
             padding-bottom: 80px;
+            
+            .banner-home img{
+                height: 250px;
+                width: 271px;
+            }
+            
+            .jumbotron-header{
+                margin-bottom: -10px;
+                
+                h1{
+                    padding-top: 10px;
+                    margin-bottom: 10px;
+                }
+            }
+            .jumbotron-subhead{
+                h5{
+                    padding: 10px 0;
+                    margin-bottom: 10px;
+                }   
+            }
         }
     }
     

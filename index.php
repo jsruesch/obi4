@@ -10,10 +10,10 @@
             <img src="images/obi-logo-large2.png"/>
         </div>
         <div class="col-sm-7">
-            <div class="col-sm-12 bg-grey">
+            <div class="col-sm-12 bg-grey jumbotron-header">
                 <h1 class="text-gold text-center">June <span class="text-white">10-12</span></h1>
             </div>
-            <div class="col-sm-12 bg-gold">
+            <div class="col-sm-12 bg-gold jumbotron-subhead">
                 <h5 class="text-grey text-center">Questions? Contact Dan Buss the tournament coordinator</h5>
             </div>
         </div>

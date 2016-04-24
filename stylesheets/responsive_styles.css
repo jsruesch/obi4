@@ -34,7 +34,8 @@
 
   .banner-home {
     margin-bottom: -20px;
-    margin-top: -10px; }
+    margin-top: -10px;
+    max-height: 250px; }
     .banner-home img {
       width: 370px; }
 
@@ -70,6 +71,17 @@
     .jumbotron .jt-home {
       padding-top: 80px;
       padding-bottom: 80px; }
+      .jumbotron .jt-home .banner-home img {
+        height: 250px;
+        width: 271px; }
+      .jumbotron .jt-home .jumbotron-header {
+        margin-bottom: -10px; }
+        .jumbotron .jt-home .jumbotron-header h1 {
+          padding-top: 10px;
+          margin-bottom: 10px; }
+      .jumbotron .jt-home .jumbotron-subhead h5 {
+        padding: 10px 0;
+        margin-bottom: 10px; }
 
   .mc {
     margin-top: -45px; }
