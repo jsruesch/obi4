@@ -131,6 +131,15 @@ ul{
     font-size: 20px;
     text-transform:uppercase;
 }
+.button-small{
+    border: none;
+    padding: 5px 8px 3px 8px;
+    margin-top: 0 !important;
+    font-family: $hind;
+    font-weight: 900;
+    font-size: 14px;
+    text-transform:uppercase;
+}
 .button-gold{
     background: $gold;
     color: $grey;

@@ -175,6 +175,15 @@ ul {
   font-size: 20px;
   text-transform: uppercase; }
 
+.button-small {
+  border: none;
+  padding: 5px 8px 3px 8px;
+  margin-top: 0 !important;
+  font-family: "Hind", sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  text-transform: uppercase; }
+
 .button-gold {
   background: #FFDC00;
   color: #111; }

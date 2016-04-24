@@ -14,7 +14,7 @@
                 <h1 class="text-gold text-center">June <span class="text-white">10-12</span></h1>
             </div>
             <div class="col-sm-12 bg-gold jumbotron-subhead">
-                <h5 class="text-grey text-center">Questions? Contact Dan Buss the tournament coordinator</h5>
+                <h5 class="text-grey text-center">Questions? <a href="mailto:danbuss1@gmail.com" target="_blank"><button class="button-small button-grey">Contact Dan Buss</button></a> the tournament coordinator</h5>
             </div>
         </div>
         
