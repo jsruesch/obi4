@@ -8,7 +8,7 @@
             <ul>
                 <li>Skater Cost: <strong class="text-gold">$50</strong></li>
                 <li>Goalie Cost: <strong class="text-gold">$25</strong></li>
-                <li>Each team will get <span class="text-gold">six, two-period games</span> in <span class="text-gold">Round Robin format</span>. Periods will be 20 minutes each.</li>
+                <li>Each team will get <span class="text-gold">four, two-period games</span> in <span class="text-gold">Round Robin format</span>. Periods will be 20 minutes each.</li>
             </ul>
         </div>
         <div class="col-sm-4">
