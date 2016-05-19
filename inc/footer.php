@@ -25,6 +25,7 @@
     <div class="container-fluid footer-snapshot">
         <div class="col-xs-12">
             <ul class="list-inline text-center">
+                <li><a href="https://sunprairieice.sportngin.com/register/form/273959499?mc_cid=28f1b0107c&mc_eid=c3e1eb8e38" class="text-white" target="_blank">Sign Up</a></li>
                 <li class="text-gold">June 10-12</li>
                 <li class="text-white">Sun Prairie Ice Arena</li>
                 <li class="text-white">
