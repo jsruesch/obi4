@@ -37,13 +37,13 @@
         
         <!-- schedule-overview -->
         <div class="full schedule-overview">
-            <div class="col-sm-4 bg-grey">
+            <!--<div class="col-sm-4 bg-grey">
                 <div class="team-schedule"><?php require_once('schedules/friday.php') ?></div>
-            </div>
-            <div class="col-sm-4 bg-grey">
+            </div>-->
+            <div class="col-sm-6 bg-grey">
                 <div class="team-schedule"><?php require_once('schedules/saturday.php') ?></div>
             </div>
-            <div class="col-sm-4 bg-grey">
+            <div class="col-sm-6 bg-grey">
                 <div class="team-schedule"><?php require_once('schedules/sunday.php') ?></div>
             </div>
         </div><!-- /.schedule-overview -->

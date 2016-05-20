@@ -41,7 +41,7 @@
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Schedule <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="schedule-full.php" class="bg-grey">Full Schedule</a></li>
-                                <li><a href="schedule-friday.php" class="bg-grey">Friday</a></li>
+                                <!--<li><a href="schedule-friday.php" class="bg-grey">Friday</a></li>-->
                                 <li><a href="schedule-saturday.php" class="bg-grey">Saturday</a></li>
                                 <li><a href="schedule-sunday.php" class="bg-grey">Sunday</a></li>
                                 
