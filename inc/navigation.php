@@ -24,13 +24,13 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Teams <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="team-blue.php"     class="bg-blue text-white">Team Blue</a></li>
-                                <li><a href="team-black.php"    class="bg-grey text-white">Team Black</a></li>
-                                <li><a href="team-red.php"      class="bg-red text-white">Team Red</a></li>
-                                <li><a href="team-white.php"    class="bg-white text-grey">Team White</a></li>
-                                <li><a href="team-yellow.php"   class="bg-yellow text-grey">Team Yellow</a></li>
-                                <li><a href="team-maroon.php"   class="bg-maroon text-white">Team Maroon</a></li>
-                                <li><a href="team-green.php"    class="bg-green text-white">Team Green</a></li>
+                                <li><a href="team-blue.php"         class="bg-blue text-white">Team Blue</a></li>
+                                <li><a href="team-black.php"        class="bg-grey text-white">Team Black</a></li>
+                                <li><a href="team-red.php"          class="bg-red text-white">Team Red</a></li>
+                                <li><a href="team-white.php"        class="bg-white text-grey">Team Grey</a></li>
+                                <li><a href="team-yellow.php"       class="bg-yellow text-grey">Team Yellow</a></li>
+                                <li><a href="team-tan.php"          class="bg-tan text-grey">Team Tan</a></li>
+                                <li><a href="team-light-blue.php"   class="bg-light-blue text-white">Team Light Blue</a></li>
                                 <!--<li role="separator" class="divider"></li>-->
                             </ul>
                         </li>

@@ -113,6 +113,12 @@ ul {
 .bg-grey {
   background: #111 !important; }
 
+.bg-light-blue {
+  background: #6cbbf3 !important; }
+
+.bg-tan {
+  background: #decf79 !important; }
+
 /* Bootstrap Overrides */
 .container-fluid {
   padding-left: 0 !important;
@@ -142,6 +148,12 @@ ul {
 
 .banner-maroon {
   background: url("../images/banners/banner-maroon.png") 50% 0; }
+
+.banner-tan {
+  background: url("../images/banners/banner-tan.png") 50% 0; }
+
+.banner-light-blue {
+  background: url("../images/banners/banner-light-blue.png") 50% 0; }
 
 .jumbotron {
   margin-top: -155px; }
@@ -253,6 +265,12 @@ nav li a {
     opacity: .7; }
   nav li a.bg-green:hover {
     background: #0BC500 !important;
+    opacity: .7; }
+  nav li a.bg-light-blue:hover {
+    background: #6cbbf3 !important;
+    opacity: .7; }
+  nav li a.bg-tan:hover {
+    background: #decf79 !important;
     opacity: .7; }
 nav .open > a {
   background: #222 !important;

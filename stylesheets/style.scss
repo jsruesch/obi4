@@ -72,6 +72,8 @@ ul{
 .bg-maroon{ background: $maroon !important; }
 .bg-green{  background: $green !important; }
 .bg-grey{   background: $grey !important; }
+.bg-light-blue{   background: $l-blue !important; }
+.bg-tan{    background: $tan !important; }
 
     /* Bootstrap Overrides */
 
@@ -82,14 +84,16 @@ ul{
 
     /* End Bootstrap Overrides */
 
-.banner-home-page{ background: url('../images/banners/hp-banner-01.png') 50% 0; }
-.banner-blue{ background: url('../images/banners/banner-blue.png') 50% 0; }
-.banner-black{ background: url('../images/banners/banner-black.png') 50% 0; }
-.banner-white{ background: url('../images/banners/banner-white.png') 50% 0; }
-.banner-red{ background: url('../images/banners/banner-red.png') 50% 0; }
-.banner-yellow{ background: url('../images/banners/banner-yellow.png') 50% 0; }
-.banner-green{ background: url('../images/banners/banner-green.png') 50% 0; }
-.banner-maroon{ background: url('../images/banners/banner-maroon.png') 50% 0; }
+.banner-home-page{      background: url('../images/banners/hp-banner-01.png') 50% 0; }
+.banner-blue{           background: url('../images/banners/banner-blue.png') 50% 0; }
+.banner-black{          background: url('../images/banners/banner-black.png') 50% 0; }
+.banner-white{          background: url('../images/banners/banner-white.png') 50% 0; }
+.banner-red{            background: url('../images/banners/banner-red.png') 50% 0; }
+.banner-yellow{         background: url('../images/banners/banner-yellow.png') 50% 0; }
+.banner-green{          background: url('../images/banners/banner-green.png') 50% 0; }
+.banner-maroon{         background: url('../images/banners/banner-maroon.png') 50% 0; }
+.banner-tan{            background: url('../images/banners/banner-tan.png') 50% 0; }
+.banner-light-blue{     background: url('../images/banners/banner-light-blue.png') 50% 0; }
 
 .jumbotron{
     margin-top: -155px;
@@ -201,14 +205,16 @@ nav{
             font-size: 18px;
             text-transform: uppercase;
             
-            &:hover{            background: #222 !important; }
-            &.bg-grey:hover{    background: $grey !important; opacity: .7; }
-            &.bg-blue:hover{    background: $blue !important; opacity: .7; }
-            &.bg-red:hover{     background: $red !important; opacity: .7; }
-            &.bg-white:hover{   background: $white !important; opacity: .7; }
-            &.bg-yellow:hover{  background: $yellow !important; opacity: .7; }
-            &.bg-maroon:hover{  background: $maroon !important; opacity: .7; }
-            &.bg-green:hover{   background: $green !important; opacity: .7; }
+            &:hover{                background: #222 !important; }
+            &.bg-grey:hover{        background: $grey !important; opacity: .7; }
+            &.bg-blue:hover{        background: $blue !important; opacity: .7; }
+            &.bg-red:hover{         background: $red !important; opacity: .7; }
+            &.bg-white:hover{       background: $white !important; opacity: .7; }
+            &.bg-yellow:hover{      background: $yellow !important; opacity: .7; }
+            &.bg-maroon:hover{      background: $maroon !important; opacity: .7; }
+            &.bg-green:hover{       background: $green !important; opacity: .7; }
+            &.bg-light-blue:hover{  background: $l-blue !important; opacity: .7; }
+            &.bg-tan:hover{         background: $tan !important; opacity: .7; }
         }
     }
     
