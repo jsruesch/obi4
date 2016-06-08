@@ -12,8 +12,8 @@
         </div>
         <div class="col-sm-4">
             <ul>
-                <li>3 points for a win</li>
-                <li>2 points for a tie</li>
+                <li>4 points for a win</li>
+                <li>2 points each for a tie</li>
                 <li>1 point for winning a period</li>
                 <li>1 additional point if a team has no penalties in a game</li>
             </ul>

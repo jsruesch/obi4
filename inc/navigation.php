@@ -29,7 +29,7 @@
                                 <li><a href="team-red.php"          class="bg-red text-white">Team Red</a></li>
                                 <li><a href="team-white.php"        class="bg-white text-grey">Team Grey</a></li>
                                 <li><a href="team-yellow.php"       class="bg-yellow text-grey">Team Yellow</a></li>
-                                <li><a href="team-tan.php"          class="bg-tan text-grey">Team Tan</a></li>
+                                <li><a href="team-tan.php"          class="bg-tan text-grey">Fat Baby Rohans</a></li>
                                 <li><a href="team-light-blue.php"   class="bg-light-blue text-white">Team Light Blue</a></li>
                                 <!--<li role="separator" class="divider"></li>-->
                             </ul>
