@@ -7,6 +7,7 @@
         <div class="col-sm-4">
             <ul>
                 <li>Each team will get <span class="text-gold">six, two-period games</span> in <span class="text-gold">Round Robin format</span>. Periods will be 20 minutes each.</li>
+                <li>GM's will be handing out $10 Willy Ty's gift cards to the player on the opposing team they felt displayed the best sportsmanship.</li>
             </ul>
         </div>
         <div class="col-sm-4">
