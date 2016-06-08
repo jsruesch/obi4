@@ -155,6 +155,15 @@ ul {
 .banner-light-blue {
   background: url("../images/banners/banner-light-blue.png") 50% 0; }
 
+.banner-fbr {
+  background: url("../images/banners/banner-fbr.png") 50% 0; }
+
+.banner-hfb {
+  background: url("../images/banners/banner-here-4-beer.png") 50% 0; }
+
+.banner-gypsy-danger {
+  background: url("../images/banners/banner-gypsy-danger.png") 50% 0; }
+
 .jumbotron {
   margin-top: -155px; }
   .jumbotron .jt-home {
@@ -163,6 +172,15 @@ ul {
     margin-bottom: -48px !important; }
     .jumbotron .jt-home button {
       margin-top: 25px; }
+  .jumbotron .hfb-logo {
+    float: left;
+    margin: 10px 20px 0 0; }
+  .jumbotron .fbr-logo {
+    float: left;
+    margin: -50px -25px -50px 0; }
+  .jumbotron .gypsy-danger-logo {
+    float: left;
+    margin: -30px 20px -90px -50px; }
 
 .banner-home {
   max-height: 400px;

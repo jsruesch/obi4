@@ -3,9 +3,10 @@
 
 <!-- START: Main Content -->
 <!-- jumbotron -->
-<div class="jumbotron banner-blue">
+<div class="jumbotron banner-gypsy-danger">
     <div class="container">
-            <h1 class="text-white">Team <br /> Blue</h1>
+            <img class="gypsy-danger-logo" src="images/logos/gypsy-danger-logo.png"/>
+            <h1 class="text-white">Gypsy <br /> Danger</h1>
     </div>
 </div><!-- ./jumbotron -->
 

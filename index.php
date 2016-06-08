@@ -25,13 +25,13 @@
     <div class="container">
         <div class="full team-list">
             <div class="col-sm-3 bg-grey"><p class="text-gold">Teams</p></div>
-            <a href="team-blue.php"><div class="col-sm-3 bg-blue"><p>Team Blue</p></div></a>
-            <a href="team-black.php"><div class="col-sm-3 bg-grey"><p>Team Black</p></div></a>
+            <a href="team-blue.php"><div class="col-sm-3 bg-blue"><p>Gypsy Danger</p></div></a>
+            <a href="team-black.php"><div class="col-sm-3 bg-grey"><p>We're Here 4 Beer</p></div></a>
             <a href="team-red.php"><div class="col-sm-3 bg-red"><p>Team Red</p></div></a>
             
             <a href="team-grey.php"><div class="col-sm-3 bg-white"><p class="text-grey">Team Grey</p></div></a>
             <a href="team-yellow.php"><div class="col-sm-3 bg-yellow"><p class="text-grey">Team Yellow</p></div></a>
-            <a href="team-tan.php"><div class="col-sm-3 bg-tan"><p class="text-grey">Team Tan</p></div></a>
+            <a href="team-tan.php"><div class="col-sm-3 bg-tan"><p class="text-grey">Fat Baby Rohans</p></div></a>
             <a href="team-light-blue.php"><div class="col-sm-3 bg-light-blue"><p>Team Light Blue</p></div></a>
         </div>
         

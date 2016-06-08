@@ -92,6 +92,17 @@
       .jumbotron .jt-home .jumbotron-subhead h5 {
         padding: 10px 0;
         margin-bottom: 10px; }
+    .jumbotron .fbr-logo {
+      margin-right: -50px; }
+    .jumbotron .gypsy-danger-logo {
+      margin: -30px 20px -70px -20px;
+      height: 200px; }
+
+  .banner-hfb h1 {
+    margin-top: 45px; }
+
+  .banner-fbr h1 {
+    margin-top: 45px; }
 
   .mc {
     margin-top: -45px; }
@@ -189,6 +200,21 @@
       .jumbotron .jt-home .jumbotron-subhead h5 {
         padding: 10px 0;
         margin-bottom: 10px; }
+    .jumbotron .fbr-logo {
+      height: 200px;
+      margin: -40px -30px -35px -30px; }
+    .jumbotron .hfb-logo {
+      height: 100px;
+      margin: 20px 20px 0 0; }
+    .jumbotron .gypsy-danger-logo {
+      margin: 0 20px -45px -20px;
+      height: 150px; }
+
+  .banner-hfb h1 {
+    margin-top: 45px; }
+
+  .banner-fbr h1 {
+    margin-top: 35px; }
 
   .mc {
     margin-top: -45px; }

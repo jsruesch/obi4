@@ -3,8 +3,9 @@
 
 <!-- START: Main Content -->
 <!-- jumbotron -->
-<div class="jumbotron banner-tan">
+<div class="jumbotron banner-fbr">
     <div class="container">
+        <img class="fbr-logo" src="images/logos/fbr-logo.png"/>
             <h1 class="text-white">Fat Baby <br /> Rohans</h1>
     </div>
 </div><!-- ./jumbotron -->

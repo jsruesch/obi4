@@ -94,6 +94,9 @@ ul{
 .banner-maroon{         background: url('../images/banners/banner-maroon.png') 50% 0; }
 .banner-tan{            background: url('../images/banners/banner-tan.png') 50% 0; }
 .banner-light-blue{     background: url('../images/banners/banner-light-blue.png') 50% 0; }
+.banner-fbr{            background: url('../images/banners/banner-fbr.png') 50% 0; }
+.banner-hfb{            background: url('../images/banners/banner-here-4-beer.png') 50% 0; }
+.banner-gypsy-danger{   background: url('../images/banners/banner-gypsy-danger.png') 50% 0; }
 
 .jumbotron{
     margin-top: -155px;
@@ -104,6 +107,21 @@ ul{
         margin-bottom: -48px !important;
         
         button{ margin-top: 25px; }
+    }
+    
+    .hfb-logo{
+        float:left;
+        margin:10px 20px 0 0;
+    }
+    
+    .fbr-logo{
+        float:left;
+        margin:-50px -25px -50px 0;
+    }
+    
+    .gypsy-danger-logo{
+        float:left;
+        margin:-30px 20px -90px -50px;
     }
     
 } 
