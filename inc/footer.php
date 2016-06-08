@@ -21,6 +21,7 @@
         <div class="col-sm-4">
             <ul>
                 <li> Each player will be allowed a maximum of three goals per game. If your OBHL rating is 9 or higher you're limited to 2 goals per game maximum.</li>
+                <li>If a player takes three penalties in one game, that player will not be allowed to play in the next game.</li>
             </ul>
         </div>
     </div>
