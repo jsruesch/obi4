@@ -6,14 +6,15 @@
         </div>
         <div class="col-sm-4">
             <ul>
-                <li>Skater Cost: <strong class="text-gold">$50</strong></li>
-                <li>Goalie Cost: <strong class="text-gold">$25</strong></li>
-                <li>Each team will get <span class="text-gold">four to six (depending on total amount of teams registered), two-period games</span> in <span class="text-gold">Round Robin format</span>. Periods will be 20 minutes each.</li>
+                <li>Each team will get <span class="text-gold">six, two-period games</span> in <span class="text-gold">Round Robin format</span>. Periods will be 20 minutes each.</li>
             </ul>
         </div>
         <div class="col-sm-4">
             <ul>
-                <li>GM's are allotted five buddy picks (within reason. No team stacking). The remainder of their rosters will be filled via draft.</li>
+                <li>3 points for a win</li>
+                <li>2 points for a tie</li>
+                <li>1 point for winning a period</li>
+                <li>1 additional point if a team has no penalties in a game</li>
             </ul>
         </div>
         <div class="col-sm-4">
