@@ -3,12 +3,12 @@
         <tr><th colspan="2">Sunday</th></tr>
         
          <tr>
-            <td class="game-time">0:00 pm <br /> <span class="rink">Cardinal Rink</span></td>
+            <td class="game-time">9:00 am <br /> <span class="rink">Cardinal</span></td>
             <td class="opponent">
                 <ul>
-                    <li class="text-red">Team 1 Name</li>
+                    <li class="text-lblue"><?php require('team-names/team-name-light-blue.php') ?></li>
                     <li class="rink">vs</li>
-                    <li class="text-yellow">Team 2 Name</li>
+                    <li class="text-tan"><?php require('team-names/team-name-tan.php') ?></li>
                 </ul>
             </td>
         </tr>

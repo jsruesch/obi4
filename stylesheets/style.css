@@ -86,6 +86,15 @@ ul {
 .text-grey {
   color: #111 !important; }
 
+.text-lgrey {
+  color: #acacac !important; }
+
+.text-lblue {
+  color: #6cbbf3 !important; }
+
+.text-tan {
+  color: #decf79 !important; }
+
 .bg-gold {
   background: #FFDC00 !important; }
 
@@ -112,6 +121,9 @@ ul {
 
 .bg-grey {
   background: #111 !important; }
+
+.bg-light-grey {
+  background: #acacac !important; }
 
 .bg-light-blue {
   background: #6cbbf3 !important; }

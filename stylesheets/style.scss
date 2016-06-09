@@ -62,18 +62,22 @@ ul{
 .text-maroonlt{ color: $maroonlt !important; }
 .text-green{    color: $green !important; }
 .text-grey{     color: $grey !important; }
+.text-lgrey{    color: $l-grey !important; }
+.text-lblue{    color: $l-blue !important; }
+.text-tan{      color: $tan !important; }
 
-.bg-gold{   background: $gold !important; }
-.bg-white{  background: $white !important; }
-.bg-blue{   background: $blue !important; }
-.bg-black{  background: $black !important; }
-.bg-red{    background: $red !important; }
-.bg-yellow{ background: $yellow !important; }
-.bg-maroon{ background: $maroon !important; }
-.bg-green{  background: $green !important; }
-.bg-grey{   background: $grey !important; }
-.bg-light-blue{   background: $l-blue !important; }
-.bg-tan{    background: $tan !important; }
+.bg-gold{           background: $gold !important; }
+.bg-white{          background: $white !important; }
+.bg-blue{           background: $blue !important; }
+.bg-black{          background: $black !important; }
+.bg-red{            background: $red !important; }
+.bg-yellow{         background: $yellow !important; }
+.bg-maroon{         background: $maroon !important; }
+.bg-green{          background: $green !important; }
+.bg-grey{           background: $grey !important; }
+.bg-light-grey{     background: $l-grey !important; }
+.bg-light-blue{     background: $l-blue !important; }
+.bg-tan{            background: $tan !important; }
 
     /* Bootstrap Overrides */
 
