@@ -9,7 +9,7 @@
         <tr><td>Michael Knerr   </td></tr>
         <tr><td>Garrett McVaugh </td></tr>
         <tr><td>Bill Rosenthal  </td></tr>
-        <tr><td>Colse Simmons   </td></tr>
+        <tr><td>Cole "falls on his own" Simmons   </td></tr>
         <tr><td>Alex Wagner     </td></tr>
         <tr><td>Kevin Wagner    </td></tr>
         <tr><td>Corey Williams  </td></tr>

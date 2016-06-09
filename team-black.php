@@ -6,7 +6,7 @@
 <div class="jumbotron banner-hfb">
     <div class="container">
             <img class="hfb-logo" src="images/logos/here-4-beer-logo.png"/>
-            <h1 class="text-white">We're Here <br /> 4 Beer</h1>
+            <h1 class="text-white">Here <br /> 4 Beer</h1>
     </div>
 </div><!-- ./jumbotron -->
 <div class="container-fluid">

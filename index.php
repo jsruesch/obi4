@@ -26,7 +26,7 @@
         <div class="full team-list">
             <div class="col-sm-3 bg-grey"><p class="text-gold">Teams</p></div>
             <a href="team-blue.php"><div class="col-sm-3 bg-blue"><p>Gypsy Danger</p></div></a>
-            <a href="team-black.php"><div class="col-sm-3 bg-grey"><p>We're Here 4 Beer</p></div></a>
+            <a href="team-black.php"><div class="col-sm-3 bg-grey"><p>Here 4 Beer</p></div></a>
             <a href="team-red.php"><div class="col-sm-3 bg-red"><p>Team Red</p></div></a>
             
             <a href="team-grey.php"><div class="col-sm-3 bg-white"><p class="text-grey">Team Grey</p></div></a>

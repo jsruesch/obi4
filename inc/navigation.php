@@ -25,9 +25,9 @@
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Teams <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="team-blue.php"         class="bg-blue text-white">Gypsy Danger</a></li>
-                                <li><a href="team-black.php"        class="bg-grey text-white">We're Here 4 Beer</a></li>
+                                <li><a href="team-black.php"        class="bg-grey text-white"> Here 4 Beer</a></li>
                                 <li><a href="team-red.php"          class="bg-red text-white">Team Red</a></li>
-                                <li><a href="team-white.php"        class="bg-white text-grey">Team Grey</a></li>
+                                <li><a href="team-grey.php"        class="bg-white text-grey">Team Grey</a></li>
                                 <li><a href="team-yellow.php"       class="bg-yellow text-grey">Team Yellow</a></li>
                                 <li><a href="team-tan.php"          class="bg-tan text-grey">Fat Baby Rohans</a></li>
                                 <li><a href="team-light-blue.php"   class="bg-light-blue text-white">Team Light Blue</a></li>
