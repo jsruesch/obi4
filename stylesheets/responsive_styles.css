@@ -74,6 +74,9 @@
     padding-left: 30px !important;
     line-height: normal !important; }
 
+  .padbot {
+    padding-bottom: 10px !important; }
+
   /* Jumbotron */
   .jumbotron {
     margin-top: -40px; }
@@ -146,6 +149,9 @@
     max-height: 250px; }
     .banner-home img {
       width: 370px; }
+
+  .padbot {
+    padding-bottom: 10px !important; }
 
   .banner-black h1,
   .banner-blue h1,

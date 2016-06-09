@@ -32,7 +32,7 @@
             <a href="team-grey.php"><div class="col-sm-3 bg-white"><p class="text-grey">    <?php require('team-names/team-name-grey.php') ?></p></div></a>
             <a href="team-yellow.php"><div class="col-sm-3 bg-yellow"><p class="text-grey"> <?php require('team-names/team-name-yellow.php') ?></p></div></a>
             <a href="team-tan.php"><div class="col-sm-3 bg-tan"><p class="text-grey">       <?php require('team-names/team-name-tan.php') ?></p></div></a>
-            <a href="team-light-blue.php"><div class="col-sm-3 bg-light-blue"><p>           <?php require('team-names/team-name-light-blue.php') ?></p></div></a>
+            <a href="team-light-blue.php"><div class="col-sm-3 bg-light-blue"><p class="padbot">           <?php require('team-names/team-name-light-blue.php') ?></p></div></a>
         </div>
         
         <!-- schedule-overview -->
