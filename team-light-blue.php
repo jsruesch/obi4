@@ -19,7 +19,7 @@
         
         <!-- Roster -->
         <div class="col-sm-6 roster bg-grey mc">
-            <div class="team-roster"><?php require_once('rosters/roster-blue.php'); ?></div>  
+            <div class="team-roster"><?php require_once('rosters/roster-light-blue.php'); ?></div>  
         </div>
         
     </div>
