@@ -19,23 +19,23 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li><div class="obi-logo"></div></li>
                         <li><a href="index.php" class="pleft">Home</a></li>
-                        
+
                         <!-- START: Teams -->
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Teams <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="team-blue.php"         class="bg-blue text-white"><?php require('team-names/team-name-blue.php') ?></a></li>
-                                <li><a href="team-black.php"        class="bg-grey text-white"><?php require('team-names/team-name-black.php') ?></a></li>
-                                <li><a href="team-red.php"          class="bg-red text-white"><?php require('team-names/team-name-red.php') ?></a></li>
-                                <li><a href="team-grey.php"         class="bg-white text-grey"><?php require('team-names/team-name-grey.php') ?></a></li>
-                                <li><a href="team-yellow.php"       class="bg-yellow text-grey"><?php require('team-names/team-name-yellow.php') ?></a></li>
-                                <li><a href="team-tan.php"          class="bg-tan text-grey"><?php require('team-names/team-name-tan.php') ?></a></li>
-                                <li><a href="team-light-blue.php"   class="bg-light-blue text-white"><?php require('team-names/team-name-light-blue.php') ?></a></li>
+                                <li><a href="team-blue.php"         class="bg-blue text-white"><?php include('rosters/team-names.php'); echo $teamBlueFull; ?></a></li>
+                                <li><a href="team-black.php"        class="bg-grey text-white"><?php include('rosters/team-names.php'); echo $teamBlackFull; ?></a></li>
+                                <li><a href="team-red.php"          class="bg-red text-white"><?php include('rosters/team-names.php'); echo $teamRedFull; ?></a></li>
+                                <li><a href="team-grey.php"         class="bg-white text-grey"><?php include('rosters/team-names.php'); echo $teamGreyFull; ?></a></li>
+                                <li><a href="team-yellow.php"       class="bg-yellow text-grey"><?php include('rosters/team-names.php'); echo $teamYellowFull; ?></a></li>
+                                <li><a href="team-tan.php"          class="bg-tan text-grey"><?php include('rosters/team-names.php'); echo $teamTanFull; ?></a></li>
+                                <li><a href="team-light-blue.php"   class="bg-light-blue text-white"><?php include('rosters/team-names.php'); echo $teamLightBlueFull; ?></a></li>
                                 <!--<li role="separator" class="divider"></li>-->
                             </ul>
                         </li>
                         <!-- END: Teams -->
-                        
+
                         <!-- START: Schedule -->
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Schedule <span class="caret"></span></a>
@@ -44,7 +44,7 @@
                                 <!--<li><a href="schedule-friday.php" class="bg-grey">Friday</a></li>-->
                                 <li><a href="schedule-saturday.php" class="bg-grey">Saturday</a></li>
                                 <li><a href="schedule-sunday.php" class="bg-grey">Sunday</a></li>
-                                
+
                             </ul>
                         </li>
                         <!-- END: Schedule -->
@@ -52,9 +52,9 @@
                         <!--
                         <li><a href="#" class="text-white"type="button"
                             data-container="body"
-                            data-toggle="popover" 
-                            data-placement="bottom" 
-                            title="Signup Currently Unavailable" 
+                            data-toggle="popover"
+                            data-placement="bottom"
+                            title="Signup Currently Unavailable"
                             data-content="We're not quite ready to open up signup just yet. Keep checking back to make sure you know when it's ready to go!">Sign Up</a></li>-->
                     </ul>
                 </div>
