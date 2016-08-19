@@ -48,7 +48,7 @@
                             </ul>
                         </li>
                         <!-- END: Schedule -->
-                        <li><a href="https://sunprairieice.sportngin.com/register/form/273959499?mc_cid=28f1b0107c&mc_eid=c3e1eb8e38" class="text-white" type="button" target="_blank">Sign Up</a></li>
+                        <li><a href="../../index.php" class="text-white" type="button">Go Back</a></li>
                         <!--
                         <li><a href="#" class="text-white"type="button"
                             data-container="body"
