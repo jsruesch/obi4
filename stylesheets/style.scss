@@ -362,6 +362,7 @@ nav{
 }
 
 .team-roster{
+  padding: 0 15px 30px 15px;
     table{
         width: 100%;
 
@@ -399,6 +400,26 @@ nav{
     font-size: 12px;
 }
 
+.points-and-standings{
+  margin-top: -60px;
+  background: $gold;
+
+  .points{
+    h3{
+      text-align: left;
+      color: $grey;
+      margin-bottom: 0 !important;
+    }
+  }
+  .standings{
+    h3{
+      text-align: right;
+      color: $grey;
+      margin-bottom: 0 !important;
+    }
+  }
+}
+
 /* End Team Page Styles */
 
 
@@ -419,6 +440,7 @@ nav{
 }
 
 .team-schedule{
+  padding: 0 15px 30px 15px;
     table{
         width: 100%;
 

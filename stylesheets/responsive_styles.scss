@@ -1,7 +1,7 @@
 /*------------------------------------------------------------------
 
     Responsive Styles
-    
+
 -------------------------------------------------------------------*/
 
 @import 'mixins';
@@ -14,30 +14,30 @@
  * =========================================
  */
 
-@media (min-width: 768px) and (max-width: 992px) { 
-    
+@media (min-width: 768px) and (max-width: 992px) {
+
     .banner-home{
         img{
-            @include full;  
+            @include full;
         }
     }
-    
+
 }
- 
+
 @media (max-width: 767px) {
     .obi-logo{ display: none; }
     .obi-logo-mobile{ display: block; }
-    
+
     .banner-home{
         margin-bottom: -20px;
         margin-top: -10px;
         max-height: 250px;
-        
+
         img{
-            width: 370px;   
+            width: 370px;
         }
     }
-    
+
     .banner-black h1,
     .banner-blue h1,
     .banner-white h1,
@@ -45,9 +45,9 @@
     .banner-yellow h1,
     .banner-green h1,
     .banner-maroon h1 { text-align: center; }
-    
+
     /* Nav */
-    .navbar{ 
+    .navbar{
         background: $grey;
         margin-top: 0 !important;
         margin-left: -15px !important;
@@ -61,16 +61,16 @@
     }
     .navbar-nav>li{ border-bottom: 1px solid #222; padding-left: 15px; }
     .navbar-nav>li:last-child{ border-bottom: none; }
-    
+
     .navbar-nav .open .dropdown-menu>li>a{
         padding-top: 10px !important;
         padding-bottom: 5px !important;
         padding-left: 30px !important;
         line-height: normal !important;
     }
-    
+
     .padbot{ padding-bottom:10px !important; }
-    
+
     /* Jumbotron */
     .jumbotron{
         margin-top: -40px;
@@ -79,15 +79,15 @@
             padding-top: 80px;
             padding-bottom: 80px;
             margin-bottom: -55px !important;
-            
+
             .banner-home img{
                 height: 250px;
                 width: 271px;
             }
-            
+
             .jumbotron-header{
                 margin-bottom: -10px;
-                
+
                 h1{
                     padding-top: 10px;
                     margin-bottom: 10px;
@@ -97,69 +97,88 @@
                 h5{
                     padding: 10px 0;
                     margin-bottom: 10px;
-                }   
+                }
             }
         }
-        
+
         .fbr-logo{ margin-right:-50px; }
         .gypsy-danger-logo{ margin:-30px 20px -70px -20px; height:200px; }
     }
-    
+
     .banner-hfb h1{ margin-top:45px;}
     .banner-fbr h1{ margin-top:45px;}
-    
+
     .mc{ margin-top: -45px;}
-    
+
     /* Schedules */
-    .opponent ul{ 
-        list-style:none; 
+    .opponent ul{
+        list-style:none;
         padding-left: 0;
         margin-bottom: 0;
     }
 
     .team-list .bg-green p{ margin-bottom: 10px; }
-    
+
     .team-schedule{
         .rink{ font-size: 13px; }
         table{ margin-bottom: 15px; margin-top: -15px; }
         table tr th{ color: #fff; font-size: 17px; }
-        table tr td{ 
+        table tr td{
             padding: 5px 10px;
             font-size: 13px;
             font-weight: 700;
         }
+    }
+
+    .points-and-standings{
+      .points{
+        padding-top: 10px !important;
+        h3{
+          margin-top: 3px !important;
+          text-align: center;
+          margin-bottom: 0 !important;
+        }
+      }
+      .standings{
+        margin-bottom: 5px;
+        h3{
+          text-align: center;
+          margin-top: 3px;
+          margin-bottom: 0 !important;
+        }
+      }
     }
 }
 
 
 
 /* Mobile Devices */
-@media (min-device-width: 768px) and (max-device-width: 992px) { 
-    
+@media (min-device-width: 768px) and (max-device-width: 992px) {
+
     .banner-home{
         img{
-            @include full;  
+            @include full;
         }
     }
-    
+
 }
- 
+
 @media (max-width: 767px) {
     .obi-logo{ display: none; }
     .obi-logo-mobile{ display: block; }
-    
+
     .banner-home{
         margin-bottom: -20px;
         margin-top: -10px;
         max-height: 250px;
-        
+
         img{
-            width: 370px;   
+            width: 370px;
         }
     }
-    
+
     .padbot{ padding-bottom:10px !important; }
-    
+
     .banner-black h1,
     .banner-blue h1,
     .banner-white h1,
@@ -167,9 +186,9 @@
     .banner-yellow h1,
     .banner-green h1,
     .banner-maroon h1 { text-align: center; }
-    
+
     /* Nav */
-    .navbar{ 
+    .navbar{
         background: $grey;
         margin-top: 0 !important;
         margin-left: -15px !important;
@@ -183,14 +202,14 @@
     }
     .navbar-nav>li{ border-bottom: 1px solid #222; padding-left: 15px; }
     .navbar-nav>li:last-child{ border-bottom: none; }
-    
+
     .navbar-nav .open .dropdown-menu>li>a{
         padding-top: 10px !important;
         padding-bottom: 5px !important;
         padding-left: 30px !important;
         line-height: normal !important;
     }
-    
+
     /* Jumbotron */
     .jumbotron{
         margin-top: -40px;
@@ -199,15 +218,15 @@
             padding-top: 80px;
             padding-bottom: 80px;
             margin-bottom: -55px !important;
-            
+
             .banner-home img{
                 height: 250px;
                 width: 271px;
             }
-            
+
             .jumbotron-header{
                 margin-bottom: -10px;
-                
+
                 h1{
                     padding-top: 10px;
                     margin-bottom: 10px;
@@ -217,39 +236,56 @@
                 h5{
                     padding: 10px 0;
                     margin-bottom: 10px;
-                }   
+                }
             }
         }
-        
+
         .fbr-logo{ height: 200px; margin:-40px -30px -35px -30px; }
         .hfb-logo{ height:100px; margin:20px 20px 0 0; }
         .gypsy-danger-logo{ margin:0 20px -45px -20px; height:150px; }
     }
-    
+
     .banner-hfb h1{ margin-top:45px;}
     .banner-fbr h1{ margin-top:35px;}
-    
+
     .mc{ margin-top: -45px;}
-    
+
     /* Schedules */
-    .opponent ul{ 
-        list-style:none; 
+    .opponent ul{
+        list-style:none;
         padding-left: 0;
         margin-bottom: 0;
     }
 
     .team-list .bg-green p{ margin-bottom: 10px; }
-    
+
     .team-schedule{
         .rink{ font-size: 13px; }
         table{ margin-bottom: 15px; margin-top: -15px; }
         table tr th{ color: #fff; font-size: 17px; }
-        table tr td{ 
+        table tr td{
             padding: 5px 10px;
             font-size: 13px;
             font-weight: 700;
         }
     }
+    .points-and-standings{
+      .points{
+        padding-top: 10px !important;
+        h3{
+          margin-top: 3px !important;
+          text-align: center;
+          margin-bottom: 0 !important;
+        }
+      }
+      .standings{
+        margin-bottom: 5px;
+        h3{
+          text-align: center;
+          margin-top: 3px;
+          margin-bottom: 0 !important;
+        }
+      }
+    }
 }
 /* End of media queries */
-

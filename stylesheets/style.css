@@ -400,23 +400,25 @@ nav .dropdown-menu {
     font-size: 33px;
     text-align: center; }
 
-.team-roster table {
-  width: 100%; }
-  .team-roster table tr th {
-    padding: 25px 0 5px 0;
-    font-family: "Hind", sans-serif;
-    color: #FFDC00;
-    font-weight: 900;
-    text-transform: uppercase;
-    font-size: 25px; }
-  .team-roster table tr td {
-    border-bottom: 1px solid #333;
-    padding: 10px 0;
-    font-family: "Hind", sans-serif;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 18px;
-    font-weight: 300; }
+.team-roster {
+  padding: 0 15px 30px 15px; }
+  .team-roster table {
+    width: 100%; }
+    .team-roster table tr th {
+      padding: 25px 0 5px 0;
+      font-family: "Hind", sans-serif;
+      color: #FFDC00;
+      font-weight: 900;
+      text-transform: uppercase;
+      font-size: 25px; }
+    .team-roster table tr td {
+      border-bottom: 1px solid #333;
+      padding: 10px 0;
+      font-family: "Hind", sans-serif;
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 18px;
+      font-weight: 300; }
 
 .gm {
   float: right;
@@ -427,6 +429,18 @@ nav .dropdown-menu {
   font-family: "Hind", sans-serif;
   font-weight: 900;
   font-size: 12px; }
+
+.points-and-standings {
+  margin-top: -60px;
+  background: #FFDC00; }
+  .points-and-standings .points h3 {
+    text-align: left;
+    color: #111;
+    margin-bottom: 0 !important; }
+  .points-and-standings .standings h3 {
+    text-align: right;
+    color: #111;
+    margin-bottom: 0 !important; }
 
 /* End Team Page Styles */
 /**
@@ -441,19 +455,21 @@ nav .dropdown-menu {
   .schedule-container .team-schedule table tr th {
     padding-top: 0; }
 
-.team-schedule table {
-  width: 100%; }
-  .team-schedule table tr th {
-    padding: 25px 0 5px 0;
-    font-family: "Hind", sans-serif;
-    color: #FFDC00;
-    font-weight: 900;
-    text-transform: uppercase;
-    font-size: 25px; }
-  .team-schedule table tr td {
-    width: 50%;
-    border: 1px solid #333;
-    padding: 20px; }
+.team-schedule {
+  padding: 0 15px 30px 15px; }
+  .team-schedule table {
+    width: 100%; }
+    .team-schedule table tr th {
+      padding: 25px 0 5px 0;
+      font-family: "Hind", sans-serif;
+      color: #FFDC00;
+      font-weight: 900;
+      text-transform: uppercase;
+      font-size: 25px; }
+    .team-schedule table tr td {
+      width: 50%;
+      border: 1px solid #333;
+      padding: 20px; }
 
 .opponent ul {
   list-style: none;

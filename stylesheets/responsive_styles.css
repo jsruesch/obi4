@@ -1,7 +1,7 @@
 /*------------------------------------------------------------------
 
     Responsive Styles
-    
+
 -------------------------------------------------------------------*/
 /**
  * =========================================
@@ -130,7 +130,20 @@
   .team-schedule table tr td {
     padding: 5px 10px;
     font-size: 13px;
-    font-weight: 700; } }
+    font-weight: 700; }
+
+  .points-and-standings .points {
+    padding-top: 10px !important; }
+    .points-and-standings .points h3 {
+      margin-top: 3px !important;
+      text-align: center;
+      margin-bottom: 0 !important; }
+  .points-and-standings .standings {
+    margin-bottom: 5px; }
+    .points-and-standings .standings h3 {
+      text-align: center;
+      margin-top: 3px;
+      margin-bottom: 0 !important; } }
 /* Mobile Devices */
 @media (min-device-width: 768px) and (max-device-width: 992px) {
   .banner-home img {
@@ -245,7 +258,20 @@
   .team-schedule table tr td {
     padding: 5px 10px;
     font-size: 13px;
-    font-weight: 700; } }
+    font-weight: 700; }
+
+  .points-and-standings .points {
+    padding-top: 10px !important; }
+    .points-and-standings .points h3 {
+      margin-top: 3px !important;
+      text-align: center;
+      margin-bottom: 0 !important; }
+  .points-and-standings .standings {
+    margin-bottom: 5px; }
+    .points-and-standings .standings h3 {
+      text-align: center;
+      margin-top: 3px;
+      margin-bottom: 0 !important; } }
 /* End of media queries */
 
 /*# sourceMappingURL=responsive_styles.css.map */
