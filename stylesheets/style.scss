@@ -155,7 +155,7 @@ ul{
     font-family: $hind;
     font-weight: 900;
     font-size: 20px;
-    text-transform:uppercase;
+    text-transform: uppercase;
 }
 .button-small{
     border: none;
@@ -164,7 +164,7 @@ ul{
     font-family: $hind;
     font-weight: 900;
     font-size: 14px;
-    text-transform:uppercase;
+    text-transform: uppercase;
 }
 .button-gold{
     background: $gold;
@@ -301,7 +301,7 @@ nav{
 .rink{
     font-size: 15px;
     color: #fff;
-    font-weight:300;
+    font-weight: 300;
     text-transform: uppercase;
 }
 .results li{
@@ -441,6 +441,7 @@ nav{
 
 .team-schedule{
   padding: 0 15px 30px 15px;
+
     table{
         width: 100%;
 
@@ -539,14 +540,17 @@ nav{
                     text-transform: uppercase;
                     line-height: 40px;
                 }
+
                 .standing-number{
                     width: 25px;
                     color: #fff;
                     text-align: left;
                 }
+
                 .standing-team{
                     text-align: center;
                 }
+                
                 .standing-points{
                     width: 65px;
                     color: #fff;
