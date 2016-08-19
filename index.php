@@ -11,7 +11,7 @@
         </div>
         <div class="col-sm-7">
             <div class="col-sm-12 bg-grey jumbotron-header">
-                <h1 class="text-gold text-center">June <span class="text-white">11-12</span></h1>
+                <h1 class="text-gold text-center">Sept <span class="text-white">23-25</span></h1>
             </div>
             <div class="col-sm-12 bg-gold jumbotron-subhead">
                 <h5 class="text-grey text-center">Questions? <a href="mailto:danbuss1@gmail.com" target="_blank"><button class="button-small button-grey">Contact Dan Buss</button></a> the tournament coordinator</h5>
@@ -49,7 +49,7 @@
         </div><!-- /.schedule-overview -->
     </div>
 </div>
-<!-- END: Main Contenr -->
+<!-- END: Main Contents -->
 
 
 <?php require_once('inc/footer.php') ?>

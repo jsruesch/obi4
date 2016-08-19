@@ -3,9 +3,8 @@
 
 <!-- START: Main Content -->
 <!-- jumbotron -->
-<div class="jumbotron banner-gypsy-danger">
+<div class="jumbotron banner-blue">
     <div class="container">
-            <img class="gypsy-danger-logo" src="images/logos/gypsy-danger-logo.png"/>
             <h1 class="text-white">
               <?php include('rosters/team-names.php'); echo $teamBlueFirst; ?>
               <br />

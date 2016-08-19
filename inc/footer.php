@@ -24,15 +24,25 @@
                 <li>If a player takes three penalties in one game, that player will not be allowed to play in the next game.</li>
             </ul>
         </div>
+
+        <!-- Tournament Archive -->
+        <div class="col-sm-12">
+              <h3 class="text-white">Tournament Archive</h3>
+              <ul>
+                <li><a href="./archive/2016-june/">June 11-12, 2016</a></li>
+              </ul>
+        </div>
     </div>
+
+    <!-- Snapshot -->
     <div class="container-fluid footer-snapshot">
         <div class="col-xs-12">
             <ul class="list-inline text-center">
                 <li><a href="https://sunprairieice.sportngin.com/register/form/273959499?mc_cid=28f1b0107c&mc_eid=c3e1eb8e38" class="text-white" target="_blank">Sign Up</a></li>
-                <li class="text-gold">June 10-12</li>
+                <li class="text-gold">September 23-25</li>
                 <li class="text-white">Sun Prairie Ice Arena</li>
                 <li class="text-white">
-                    <span class="text-gold">Questions?</span> Email Tourney Coordinator Dan Buss: 
+                    <span class="text-gold">Questions?</span> Email Tourney Coordinator Dan Buss:
                     <a href="mailto:danbuss1@gmail.com" target="_blank">danbuss1@gmail.com</a>
                 </li>
             </ul>

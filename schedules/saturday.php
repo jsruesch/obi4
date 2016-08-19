@@ -1,6 +1,6 @@
 <table>
     <tbody>
-        <tr><th colspan="2">Sat</th></tr>
+        <tr><th colspan="2">Saturday</th></tr>
 
         <tr>
            <td class="game-time">9:00 am <br /> <span class="rink">Cardinal</span></td>

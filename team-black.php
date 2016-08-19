@@ -3,9 +3,8 @@
 
 <!-- START: Main Content -->
 <!-- jumbotron -->
-<div class="jumbotron banner-hfb">
+<div class="jumbotron banner-black">
     <div class="container">
-            <img class="hfb-logo" src="images/logos/here-4-beer-logo.png"/>
             <h1 class="text-white">
               <?php include('rosters/team-names.php'); echo $teamBlackFirst; ?>
               <br />

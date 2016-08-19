@@ -1,12 +1,12 @@
 <?php
 
-  $teamBlueFull       = 'Gypsy Danger';
-  $teamBlueFirst      = 'Gypsy';
-  $teamBlueLast       = 'Danger';
+  $teamBlueFull       = 'Team Blue';
+  $teamBlueFirst      = 'Team';
+  $teamBlueLast       = 'Blue';
 
-  $teamBlackFull      = 'Here 4 Beer';
-  $teamBlackFirst     = 'Here';
-  $teamBlackLast      = '4 Beer';
+  $teamBlackFull      = 'Team Black';
+  $teamBlackFirst     = 'Team';
+  $teamBlackLast      = 'Black';
 
   $teamRedFull        = 'Team Red';
   $teamRedFirst       = 'Team';
@@ -20,9 +20,9 @@
   $teamYellowFirst    = 'Team';
   $teamYellowLast     = 'Yellow';
 
-  $teamTanFull        = 'Fat Baby Rohans';
-  $teamTanFirst       = 'Fat Baby';
-  $teamTanLast        = 'Rohans';
+  $teamTanFull        = 'Team Tan';
+  $teamTanFirst       = 'Team';
+  $teamTanLast        = 'Tan';
 
   $teamLightBlueFull  = 'Team Light Blue';
   $teamLightBlueFirst = 'Team';

@@ -3,9 +3,8 @@
 
 <!-- START: Main Content -->
 <!-- jumbotron -->
-<div class="jumbotron banner-fbr">
+<div class="jumbotron banner-tan">
     <div class="container">
-        <img class="fbr-logo" src="images/logos/fbr-logo.png"/>
             <h1 class="text-white">
               <?php include('rosters/team-names.php'); echo $teamTanFirst; ?>
               <br />

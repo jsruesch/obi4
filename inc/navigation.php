@@ -48,14 +48,14 @@
                             </ul>
                         </li>
                         <!-- END: Schedule -->
-                        <li><a href="https://sunprairieice.sportngin.com/register/form/273959499?mc_cid=28f1b0107c&mc_eid=c3e1eb8e38" class="text-white" type="button" target="_blank">Sign Up</a></li>
-                        <!--
+                        <!--<li><a href="https://sunprairieice.sportngin.com/register/form/273959499?mc_cid=28f1b0107c&mc_eid=c3e1eb8e38" class="text-white" type="button" target="_blank">Sign Up</a></li>-->
+
                         <li><a href="#" class="text-white"type="button"
                             data-container="body"
                             data-toggle="popover"
                             data-placement="bottom"
                             title="Signup Currently Unavailable"
-                            data-content="We're not quite ready to open up signup just yet. Keep checking back to make sure you know when it's ready to go!">Sign Up</a></li>-->
+                            data-content="We're not quite ready to open up signup just yet. Keep checking back to make sure you know when it's ready to go!">Sign Up</a></li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->

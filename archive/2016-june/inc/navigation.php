@@ -18,19 +18,19 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
                         <li><div class="obi-logo"></div></li>
-                        <li><a href="index.php" class="pleft">Home</a></li>
+                        <li><a href="./index.php" class="pleft">Home</a></li>
 
                         <!-- START: Teams -->
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Teams <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="teams/team-blue.php"         class="bg-blue text-white"><?php include('rosters/team-names.php'); echo $teamBlueFull; ?></a></li>
-                                <li><a href="team-black.php"        class="bg-grey text-white"><?php include('rosters/team-names.php'); echo $teamBlackFull; ?></a></li>
-                                <li><a href="team-red.php"          class="bg-red text-white"><?php include('rosters/team-names.php'); echo $teamRedFull; ?></a></li>
-                                <li><a href="team-grey.php"         class="bg-white text-grey"><?php include('rosters/team-names.php'); echo $teamGreyFull; ?></a></li>
-                                <li><a href="team-yellow.php"       class="bg-yellow text-grey"><?php include('rosters/team-names.php'); echo $teamYellowFull; ?></a></li>
-                                <li><a href="team-tan.php"          class="bg-tan text-grey"><?php include('rosters/team-names.php'); echo $teamTanFull; ?></a></li>
-                                <li><a href="team-light-blue.php"   class="bg-light-blue text-white"><?php include('rosters/team-names.php'); echo $teamLightBlueFull; ?></a></li>
+                                <li><a href="./team-blue.php"   class="bg-blue text-white"><?php include('rosters/team-names.php'); echo $teamBlueFull; ?></a></li>
+                                <li><a href="./team-black.php"        class="bg-grey text-white"><?php include('rosters/team-names.php'); echo $teamBlackFull; ?></a></li>
+                                <li><a href="./team-red.php"          class="bg-red text-white"><?php include('rosters/team-names.php'); echo $teamRedFull; ?></a></li>
+                                <li><a href="./team-grey.php"         class="bg-white text-grey"><?php include('rosters/team-names.php'); echo $teamGreyFull; ?></a></li>
+                                <li><a href="./team-yellow.php"       class="bg-yellow text-grey"><?php include('rosters/team-names.php'); echo $teamYellowFull; ?></a></li>
+                                <li><a href="./team-tan.php"          class="bg-tan text-grey"><?php include('rosters/team-names.php'); echo $teamTanFull; ?></a></li>
+                                <li><a href="./team-light-blue.php"   class="bg-light-blue text-white"><?php include('rosters/team-names.php'); echo $teamLightBlueFull; ?></a></li>
                                 <!--<li role="separator" class="divider"></li>-->
                             </ul>
                         </li>
@@ -40,10 +40,10 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Schedule <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="schedule-full.php" class="bg-grey">Full Schedule</a></li>
+                                <li><a href="./schedule-full.php" class="bg-grey">Full Schedule</a></li>
                                 <!--<li><a href="schedule-friday.php" class="bg-grey">Friday</a></li>-->
-                                <li><a href="schedule-saturday.php" class="bg-grey">Saturday</a></li>
-                                <li><a href="schedule-sunday.php" class="bg-grey">Sunday</a></li>
+                                <li><a href="./schedule-saturday.php" class="bg-grey">Saturday</a></li>
+                                <li><a href="./schedule-sunday.php" class="bg-grey">Sunday</a></li>
 
                             </ul>
                         </li>
