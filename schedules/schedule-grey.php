@@ -8,61 +8,61 @@
                 Opponent Name
             </td>
         </tr>-->
-        
+
         <tr><th colspan="2">Saturday</th></tr>
-        
+
         <tr>
             <td class="game-time">10:00 am <br /> <span class="rink">Cardinal</span></td>
             <td class="opponent text-red">
                 <span class="rink">Opponent</span> <br />
-                <?php require('team-names/team-name-red.php') ?>
+                <?php include('rosters/team-names.php'); echo $teamTBD; ?>
             </td>
         </tr>
-        
+
         <tr>
             <td class="game-time">11:30 am <br /> <span class="rink">Tubbs</span></td>
             <td class="opponent text-tan">
                 <span class="rink">Opponent</span> <br />
-                <?php require('team-names/team-name-tan.php') ?>
+                <?php include('rosters/team-names.php'); echo $teamTBD; ?>
             </td>
         </tr>
-        
+
         <tr>
             <td class="game-time">1:30 pm <br /> <span class="rink">Tubbs</span></td>
             <td class="opponent text-lblue">
                 <span class="rink">Opponent</span> <br />
-                <?php require('team-names/team-name-light-blue.php') ?>
+                <?php include('rosters/team-names.php'); echo $teamTBD; ?>
             </td>
         </tr>
-        
+
         <tr>
             <td class="game-time">3:00 pm <br /> <span class="rink">Cardinal</span></td>
             <td class="opponent text-white">
                 <span class="rink">Opponent</span> <br />
-                <?php require('team-names/team-name-black.php') ?>
+                <?php include('rosters/team-names.php'); echo $teamTBD; ?>
             </td>
         </tr>
-        
-        
-        
-        
+
+
+
+
         <tr><th colspan="2">Sunday</th></tr>
-        
+
         <tr>
             <td class="game-time">10:00 am <br /> <span class="rink">Cardinal</span></td>
             <td class="opponent text-blue">
                 <span class="rink">Opponent</span> <br />
-                <?php require('team-names/team-name-blue.php') ?>
+                <?php include('rosters/team-names.php'); echo $teamTBD; ?>
             </td>
         </tr>
-        
+
         <tr>
             <td class="game-time">12:00 pm <br /> <span class="rink">Cardinal</span></td>
             <td class="opponent text-yellow">
                 <span class="rink">Opponent</span> <br />
-                <?php require('team-names/team-name-yellow.php') ?>
+                <?php include('rosters/team-names.php'); echo $teamTBD; ?>
             </td>
         </tr>
-        
+
     </tbody>
 </table>

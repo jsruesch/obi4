@@ -1,0 +1,539 @@
+/**
+ * =========================================
+ * Imports
+ * =========================================
+ */
+
+@import 'mixins';
+
+/* End Imports */
+
+
+/**
+ * =========================================
+ * Global Styles
+ * =========================================
+ */
+* {
+    margin: 0; 
+    padding: 0;
+
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    }
+
+html{ overflow: scroll; }
+html, body{  background: url('../images/temp-bg.png') #000 50% 0 no-repeat !important; }
+
+h1,h2,h3,h4,h5{
+    font-family: $hind !important;
+    font-weight: 900  !important;
+    text-transform: uppercase;
+}
+
+p{ color: #fff; font-family: $hind; }
+
+a{
+    color: $gold !important;
+    
+    &:hover{
+        color: #fff !important;
+        text-decoration:none !important;
+    }
+}
+
+ul{
+    padding-left: 20px;
+    
+    li{
+        font-family: $hind;
+        color: #fff;
+    }
+}
+
+.text-gold{     color: $gold !important; }
+.text-white{    color: $white !important; }
+.text-blue{     color: $blue !important; }
+.text-black{    color: $black !important; }
+.text-red{      color: $red !important; }
+.text-yellow{   color: $yellow !important; }
+.text-maroon{   color: $maroon !important; }
+.text-maroonlt{ color: $maroonlt !important; }
+.text-green{    color: $green !important; }
+.text-grey{     color: $grey !important; }
+.text-lgrey{    color: $l-grey !important; }
+.text-lblue{    color: $l-blue !important; }
+.text-tan{      color: $tan !important; }
+
+.bg-gold{           background: $gold !important; }
+.bg-white{          background: $white !important; }
+.bg-blue{           background: $blue !important; }
+.bg-black{          background: $black !important; }
+.bg-red{            background: $red !important; }
+.bg-yellow{         background: $yellow !important; }
+.bg-maroon{         background: $maroon !important; }
+.bg-green{          background: $green !important; }
+.bg-grey{           background: $grey !important; }
+.bg-light-grey{     background: $l-grey !important; }
+.bg-light-blue{     background: $l-blue !important; }
+.bg-tan{            background: $tan !important; }
+
+    /* Bootstrap Overrides */
+
+    .container-fluid{ 
+        padding-left: 0 !important; 
+        padding-right: 0 !important;
+    }
+
+    /* End Bootstrap Overrides */
+
+.banner-home-page{      background: url('../images/banners/hp-banner-01.png') 50% 0; }
+.banner-blue{           background: url('../images/banners/banner-blue.png') 50% 0; }
+.banner-black{          background: url('../images/banners/banner-black.png') 50% 0; }
+.banner-white{          background: url('../images/banners/banner-white.png') 50% 0; }
+.banner-red{            background: url('../images/banners/banner-red.png') 50% 0; }
+.banner-yellow{         background: url('../images/banners/banner-yellow.png') 50% 0; }
+.banner-green{          background: url('../images/banners/banner-green.png') 50% 0; }
+.banner-maroon{         background: url('../images/banners/banner-maroon.png') 50% 0; }
+.banner-tan{            background: url('../images/banners/banner-tan.png') 50% 0; }
+.banner-light-blue{     background: url('../images/banners/banner-light-blue.png') 50% 0; }
+.banner-fbr{            background: url('../images/banners/banner-fbr.png') 50% 0; }
+.banner-hfb{            background: url('../images/banners/banner-here-4-beer.png') 50% 0; }
+.banner-gypsy-danger{   background: url('../images/banners/banner-gypsy-danger.png') 50% 0; }
+
+.jumbotron{
+    margin-top: -155px;
+    
+    .jt-home{
+        padding-top: 0 !important;
+        padding-bottom: 30px !important;
+        margin-bottom: -48px !important;
+        
+        button{ margin-top: 25px; }
+    }
+    
+    .hfb-logo{
+        float:left;
+        margin:10px 20px 0 0;
+    }
+    
+    .fbr-logo{
+        float:left;
+        margin:-50px -25px -50px 0;
+    }
+    
+    .gypsy-danger-logo{
+        float:left;
+        margin:-30px 20px -90px -50px;
+    }
+    
+} 
+
+.banner-home {
+    max-height: 400px;
+    margin-top: -42px;
+    overflow: hidden;
+    
+    img{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+.mc{ 
+    margin-top: -60px;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    padding-bottom: 30px !important;
+}
+
+.button{
+    border: none;
+    padding: 10px 20px;
+    font-family: $hind;
+    font-weight: 900;
+    font-size: 20px;
+    text-transform:uppercase;
+}
+.button-small{
+    border: none;
+    padding: 5px 8px 3px 8px;
+    margin-top: 0 !important;
+    font-family: $hind;
+    font-weight: 900;
+    font-size: 14px;
+    text-transform:uppercase;
+}
+.button-gold{
+    background: $gold;
+    color: $grey;
+    
+    &:hover{
+        background: #fbe13c;
+        color: #333;
+    }
+}
+.button-grey{
+    background: $grey;
+    color: $gold;
+    
+    &:hover{
+        background: #222;
+        color: #fff;
+    }
+}
+
+.full{ width: 100%; float: left; }
+
+/* End Global Styles */
+
+
+/**
+ * =========================================
+ * Navigation Styles
+ * =========================================
+ */
+
+.navbar{ 
+    z-index: 9999;
+    background: none;
+    margin-top: 20px !important;
+}
+
+.navbar-toggle{
+    padding: 15px;
+    margin-right: 30px !important;
+    
+    .icon-bar{ 
+        height: 1px;
+        width: 30px;
+        padding-bottom: 2px;
+        background: $gold;
+        border-radius: 0 !important;
+        margin-bottom: 5px;
+    }
+}
+
+
+nav{
+    li{
+        a{
+            font-family: $hind;
+            background: $grey;
+            font-weight: 900;
+            color: $gold;
+            font-size: 18px;
+            text-transform: uppercase;
+            
+            &:hover{                background: #222 !important; }
+            &.bg-grey:hover{        background: $grey !important; opacity: .7; }
+            &.bg-blue:hover{        background: $blue !important; opacity: .7; }
+            &.bg-red:hover{         background: $red !important; opacity: .7; }
+            &.bg-white:hover{       background: $white !important; opacity: .7; }
+            &.bg-yellow:hover{      background: $yellow !important; opacity: .7; }
+            &.bg-maroon:hover{      background: $maroon !important; opacity: .7; }
+            &.bg-green:hover{       background: $green !important; opacity: .7; }
+            &.bg-light-blue:hover{  background: $l-blue !important; opacity: .7; }
+            &.bg-tan:hover{         background: $tan !important; opacity: .7; }
+        }
+    }
+    
+    .open>a{
+        background: #222 !important; /* Bootstrap override */
+    }
+    .open>.dropdown-toggle:visited{
+        background: none !important;
+    }
+    .dropdown-menu{
+        padding-top: 0;
+        padding-bottom: 0;
+        
+        li{
+            border-bottom: 1px solid #222;
+            
+            &:last-child{ border-bottom: none; }
+            
+            a{
+                padding: 15px 15px 10px 15px !important;
+                font-family: $hind;
+                font-weight: 900;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+.navbar-nav>li>a{ padding-top: 20px !important; }
+.nav>li>a:focus{
+    background-color: $grey !important;
+}
+
+.pleft{ padding-left: 30px !important; }
+
+.obi-logo{
+    position: relative;
+    z-index: 999;
+    height: 150px;
+    width: 125px;
+    margin: -45px -25px 0 0;
+    background: url(../images/obi-logo-small.png);
+}
+
+.obi-logo-mobile{
+    display: none; 
+    float:left;
+    height: 57px;
+    width: 125px;
+    background: url(../images/obi-logo-small.png) 10px -14px no-repeat;
+}
+
+/* End Navigation Styles */
+
+
+/**
+ * =========================================
+ * Team Page Styles
+ * =========================================
+ */
+
+.rink{ 
+    font-size: 15px;
+    color: #fff;
+    font-weight:300;
+    text-transform: uppercase;
+}
+.game-time{
+    font-family: $hind;
+    color: $gold;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.opponent{
+    font-family: $hind;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.team-header-desktop{
+    position: relative;
+    height: 170px;
+    
+    .team-name{
+        position: absolute;
+        bottom: 20px;
+        left: 35px;
+        
+        p{
+            font-family: $hind;
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 50px;
+            line-height: 50px;
+        }
+    }
+}
+
+.team-header-mobile{
+    display: none; 
+    
+    .team-name{
+        
+        p{
+            padding: 20px 0 15px 0;
+            font-family: $hind;
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 33px;
+            text-align: center;
+        }
+    }
+}
+
+.team-roster{
+    table{
+        width: 100%;
+        
+        tr{ 
+            th{
+                padding: 25px 0 5px 0;
+                font-family: $hind;
+                color: $gold;
+                font-weight: 900;
+                text-transform: uppercase;
+                font-size: 25px;
+            }
+            
+            td{
+                border-bottom: 1px solid #333;
+                padding: 10px 0;
+                font-family: $hind;
+                color: #fff;
+                text-transform: uppercase;
+                font-size: 18px;
+                font-weight: 300;
+            }
+        }
+    } 
+}
+
+.gm{
+    float: right;
+    padding: 5px 3px 0 3px;
+    margin-top: 2px;
+    background: $gold;
+    color: $grey;
+    font-family: $hind;
+    font-weight: 900;
+    font-size: 12px;
+}
+
+/* End Team Page Styles */
+
+
+/**
+ * =========================================
+ * Schedule Styles
+ * =========================================
+ */
+
+.schedule-container{ 
+    padding: 20px; 
+    margin-bottom: 20px;
+    background: $grey;
+    
+    .team-schedule table tr th{
+        padding-top: 0;
+    }
+}
+
+.team-schedule{
+    table{
+        width: 100%;
+        
+        tr{ 
+            th{
+                padding: 25px 0 5px 0;
+                font-family: $hind;
+                color: $gold;
+                font-weight: 900;
+                text-transform: uppercase;
+                font-size: 25px;
+            }
+            
+            td{
+                width: 50%;
+                border: 1px solid #333;
+                padding: 20px;
+            }
+        }
+    } 
+}
+
+.opponent ul{ 
+    list-style:none; 
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.schedule-overview{
+    .rink{ font-size: 13px; }
+    table{ margin-bottom: 15px; margin-top: -15px; }
+    table tr th{ color: #fff; font-size: 17px; }
+    table tr td{ 
+        padding: 5px 10px;
+        font-size: 13px;
+        font-weight: 700;
+    }
+}
+
+/* End Schedule Styles*/
+
+/**
+ * =========================================
+ * Popover Styles
+ * =========================================
+ */
+
+.popover{
+    z-index: 888888 !important;
+    border: 2px solid $gold !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+    
+    .popover-title{
+        border-radius: 0 !important;
+        border: none; 
+        background: $gold;
+        
+        h3{
+            color: $grey;
+            font-family: $hind;
+            font-weight: 900;
+        }
+    }
+    
+    .popover-content{
+        border-radius: 0 !important;
+        border: none !important;
+        background: $grey;
+        color: #fff;
+        font-family: $hind;
+    }
+}
+
+.popover.bottom>.arrow:after{ border-bottom-color: $gold !important; }
+.popover.top>.arrow:after{ border-top-color: $gold !important; }
+
+/* End Popover Styles*/
+
+/**
+ * =========================================
+ * Misc
+ * =========================================
+ */
+
+.team-list{
+    div{ padding: 10px; }
+    
+    p{
+        margin-bottom: 0; /* Bootstrap Override */
+        font-family: $hind;
+        text-align: center;
+        font-weight: 900;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+}
+
+/* End Misc */
+
+/**
+ * =========================================
+ * Footer
+ * =========================================
+ */
+
+.footer{
+    
+    .footer-snapshot{
+        background: #111;
+        padding-top: 15px;
+        
+        ul{
+            li{
+                font-family: $hind;
+                font-weight: 900;
+                text-transform: uppercase; 
+            }
+        }
+    }
+}
+
+/* End Footer */
