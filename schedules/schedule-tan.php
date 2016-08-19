@@ -16,6 +16,13 @@
             <td class="opponent text-lgrey">
                 <span class="rink">Opponent</span> <br />
                 <?php include('rosters/team-names.php'); echo $teamTBD; ?>
+                <ul class="results">
+                    <li>Win 4-2 ( 4 points )</li>
+                    <li>P1 - Win ( 1 point )</li>
+                    <li>P2 - Win ( 1 point )</li>
+                    <li>Penalties - 0 ( 1 point )</li>
+                    <li><strong>Total 7 points</strong></li>
+                </ul>
             </td>
         </tr>
 
@@ -24,6 +31,13 @@
             <td class="opponent text-white">
                 <span class="rink">Opponent</span> <br />
                 <?php include('rosters/team-names.php'); echo $teamTBD; ?>
+                <ul class="results">
+                    <li>Win 4-2 ( 4 points )</li>
+                    <li>P1 - Win ( 1 point )</li>
+                    <li>P2 - Win ( 1 point )</li>
+                    <li>Penalties - 0 ( 1 point )</li>
+                    <li><strong>Total 7 points</strong></li>
+                </ul>
             </td>
         </tr>
 
@@ -32,6 +46,13 @@
             <td class="opponent text-yellow">
                 <span class="rink">Opponent</span> <br />
                 <?php include('rosters/team-names.php'); echo $teamTBD; ?>
+                <ul class="results">
+                    <li>Win 4-2 ( 4 points )</li>
+                    <li>P1 - Win ( 1 point )</li>
+                    <li>P2 - Win ( 1 point )</li>
+                    <li>Penalties - 0 ( 1 point )</li>
+                    <li><strong>Total 7 points</strong></li>
+                </ul>
             </td>
         </tr>
 
@@ -40,6 +61,13 @@
             <td class="opponent text-blue">
                 <span class="rink">Opponent</span> <br />
                 <?php include('rosters/team-names.php'); echo $teamTBD; ?>
+                <ul class="results">
+                    <li>Win 4-2 ( 4 points )</li>
+                    <li>P1 - Win ( 1 point )</li>
+                    <li>P2 - Win ( 1 point )</li>
+                    <li>Penalties - 0 ( 1 point )</li>
+                    <li><strong>Total 7 points</strong></li>
+                </ul>
             </td>
         </tr>
 
@@ -51,6 +79,13 @@
             <td class="opponent text-lblue">
                 <span class="rink">Opponent</span> <br />
                 <?php include('rosters/team-names.php'); echo $teamTBD; ?>
+                <ul class="results">
+                    <li>Win 4-2 ( 4 points )</li>
+                    <li>P1 - Win ( 1 point )</li>
+                    <li>P2 - Win ( 1 point )</li>
+                    <li>Penalties - 0 ( 1 point )</li>
+                    <li><strong>Total 7 points</strong></li>
+                </ul>
             </td>
         </tr>
 
@@ -60,6 +95,13 @@
             <td class="opponent text-red">
                 <span class="rink">Opponent</span> <br />
                 <?php include('rosters/team-names.php'); echo $teamTBD; ?>
+                <ul class="results">
+                    <li>Win 4-2 ( 4 points )</li>
+                    <li>P1 - Win ( 1 point )</li>
+                    <li>P2 - Win ( 1 point )</li>
+                    <li>Penalties - 0 ( 1 point )</li>
+                    <li><strong>Total 7 points</strong></li>
+                </ul>
             </td>
         </tr>
 
