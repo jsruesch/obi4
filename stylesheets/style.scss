@@ -15,7 +15,7 @@
  * =========================================
  */
 * {
-    margin: 0; 
+    margin: 0;
     padding: 0;
 
     -webkit-box-sizing: border-box;
@@ -36,7 +36,7 @@ p{ color: #fff; font-family: $hind; }
 
 a{
     color: $gold !important;
-    
+
     &:hover{
         color: #fff !important;
         text-decoration:none !important;
@@ -45,7 +45,7 @@ a{
 
 ul{
     padding-left: 20px;
-    
+
     li{
         font-family: $hind;
         color: #fff;
@@ -81,8 +81,8 @@ ul{
 
     /* Bootstrap Overrides */
 
-    .container-fluid{ 
-        padding-left: 0 !important; 
+    .container-fluid{
+        padding-left: 0 !important;
         padding-right: 0 !important;
     }
 
@@ -104,37 +104,37 @@ ul{
 
 .jumbotron{
     margin-top: -155px;
-    
+
     .jt-home{
         padding-top: 0 !important;
         padding-bottom: 30px !important;
         margin-bottom: -48px !important;
-        
+
         button{ margin-top: 25px; }
     }
-    
+
     .hfb-logo{
         float:left;
         margin:10px 20px 0 0;
     }
-    
+
     .fbr-logo{
         float:left;
         margin:-50px -25px -50px 0;
     }
-    
+
     .gypsy-danger-logo{
         float:left;
         margin:-30px 20px -90px -50px;
     }
-    
-} 
+
+}
 
 .banner-home {
     max-height: 400px;
     margin-top: -42px;
     overflow: hidden;
-    
+
     img{
         display: block;
         margin-right: auto;
@@ -142,7 +142,7 @@ ul{
     }
 }
 
-.mc{ 
+.mc{
     margin-top: -60px;
     padding-left: 30px !important;
     padding-right: 30px !important;
@@ -169,7 +169,7 @@ ul{
 .button-gold{
     background: $gold;
     color: $grey;
-    
+
     &:hover{
         background: #fbe13c;
         color: #333;
@@ -178,7 +178,7 @@ ul{
 .button-grey{
     background: $grey;
     color: $gold;
-    
+
     &:hover{
         background: #222;
         color: #fff;
@@ -196,7 +196,7 @@ ul{
  * =========================================
  */
 
-.navbar{ 
+.navbar{
     z-index: 9999;
     background: none;
     margin-top: 20px !important;
@@ -205,8 +205,8 @@ ul{
 .navbar-toggle{
     padding: 15px;
     margin-right: 30px !important;
-    
-    .icon-bar{ 
+
+    .icon-bar{
         height: 1px;
         width: 30px;
         padding-bottom: 2px;
@@ -226,7 +226,7 @@ nav{
             color: $gold;
             font-size: 18px;
             text-transform: uppercase;
-            
+
             &:hover{                background: #222 !important; }
             &.bg-grey:hover{        background: $grey !important; opacity: .7; }
             &.bg-blue:hover{        background: $blue !important; opacity: .7; }
@@ -239,7 +239,7 @@ nav{
             &.bg-tan:hover{         background: $tan !important; opacity: .7; }
         }
     }
-    
+
     .open>a{
         background: #222 !important; /* Bootstrap override */
     }
@@ -249,12 +249,12 @@ nav{
     .dropdown-menu{
         padding-top: 0;
         padding-bottom: 0;
-        
+
         li{
             border-bottom: 1px solid #222;
-            
+
             &:last-child{ border-bottom: none; }
-            
+
             a{
                 padding: 15px 15px 10px 15px !important;
                 font-family: $hind;
@@ -282,7 +282,7 @@ nav{
 }
 
 .obi-logo-mobile{
-    display: none; 
+    display: none;
     float:left;
     height: 57px;
     width: 125px;
@@ -298,7 +298,7 @@ nav{
  * =========================================
  */
 
-.rink{ 
+.rink{
     font-size: 15px;
     color: #fff;
     font-weight:300;
@@ -324,12 +324,12 @@ nav{
 .team-header-desktop{
     position: relative;
     height: 170px;
-    
+
     .team-name{
         position: absolute;
         bottom: 20px;
         left: 35px;
-        
+
         p{
             font-family: $hind;
             color: #fff;
@@ -341,10 +341,10 @@ nav{
 }
 
 .team-header-mobile{
-    display: none; 
-    
+    display: none;
+
     .team-name{
-        
+
         p{
             padding: 20px 0 15px 0;
             font-family: $hind;
@@ -359,8 +359,8 @@ nav{
 .team-roster{
     table{
         width: 100%;
-        
-        tr{ 
+
+        tr{
             th{
                 padding: 25px 0 5px 0;
                 font-family: $hind;
@@ -369,7 +369,7 @@ nav{
                 text-transform: uppercase;
                 font-size: 25px;
             }
-            
+
             td{
                 border-bottom: 1px solid #333;
                 padding: 10px 0;
@@ -380,7 +380,7 @@ nav{
                 font-weight: 300;
             }
         }
-    } 
+    }
 }
 
 .gm{
@@ -403,11 +403,11 @@ nav{
  * =========================================
  */
 
-.schedule-container{ 
-    padding: 20px; 
+.schedule-container{
+    padding: 20px;
     margin-bottom: 20px;
     background: $grey;
-    
+
     .team-schedule table tr th{
         padding-top: 0;
     }
@@ -416,8 +416,8 @@ nav{
 .team-schedule{
     table{
         width: 100%;
-        
-        tr{ 
+
+        tr{
             th{
                 padding: 25px 0 5px 0;
                 font-family: $hind;
@@ -426,18 +426,18 @@ nav{
                 text-transform: uppercase;
                 font-size: 25px;
             }
-            
+
             td{
                 width: 50%;
                 border: 1px solid #333;
                 padding: 20px;
             }
         }
-    } 
+    }
 }
 
-.opponent ul{ 
-    list-style:none; 
+.opponent ul{
+    list-style:none;
     padding-left: 0;
     margin-bottom: 0;
 }
@@ -446,7 +446,7 @@ nav{
     .rink{ font-size: 13px; }
     table{ margin-bottom: 15px; margin-top: -15px; }
     table tr th{ color: #fff; font-size: 17px; }
-    table tr td{ 
+    table tr td{
         padding: 5px 10px;
         font-size: 13px;
         font-weight: 700;
@@ -466,19 +466,19 @@ nav{
     border: 2px solid $gold !important;
     border-radius: 0 !important;
     padding: 0 !important;
-    
+
     .popover-title{
         border-radius: 0 !important;
-        border: none; 
+        border: none;
         background: $gold;
-        
+
         h3{
             color: $grey;
             font-family: $hind;
             font-weight: 900;
         }
     }
-    
+
     .popover-content{
         border-radius: 0 !important;
         border: none !important;
@@ -495,13 +495,51 @@ nav{
 
 /**
  * =========================================
+ * Standings Styles
+ * =========================================
+ */
+
+    .standings{
+        padding-bottom: 20px !important;
+
+        table{
+
+            tr{
+                td{
+                    font-family: Hind,sans-serif;
+                    font-weight: 900;
+                    font-size: 18px;
+                    text-transform: uppercase;
+                    line-height: 40px;
+                }
+                .standing-number{
+                    width: 25px;
+                    color: #fff;
+                    text-align: left;
+                }
+                .standing-team{
+                    text-align: center;
+                }
+                .standing-points{
+                    width: 65px;
+                    color: #fff;
+                    text-align: right;
+                }
+            }
+        }
+    }
+
+ /* End Standings Styles */
+
+/**
+ * =========================================
  * Misc
  * =========================================
  */
 
 .team-list{
     div{ padding: 10px; }
-    
+
     p{
         margin-bottom: 0; /* Bootstrap Override */
         font-family: $hind;
@@ -521,16 +559,16 @@ nav{
  */
 
 .footer{
-    
+
     .footer-snapshot{
         background: #111;
         padding-top: 15px;
-        
+
         ul{
             li{
                 font-family: $hind;
                 font-weight: 900;
-                text-transform: uppercase; 
+                text-transform: uppercase;
             }
         }
     }

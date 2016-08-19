@@ -503,6 +503,31 @@ nav .dropdown-menu {
 /* End Popover Styles*/
 /**
  * =========================================
+ * Standings Styles
+ * =========================================
+ */
+.standings {
+  padding-bottom: 20px !important; }
+  .standings table tr td {
+    font-family: Hind,sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 40px; }
+  .standings table tr .standing-number {
+    width: 25px;
+    color: #fff;
+    text-align: left; }
+  .standings table tr .standing-team {
+    text-align: center; }
+  .standings table tr .standing-points {
+    width: 65px;
+    color: #fff;
+    text-align: right; }
+
+/* End Standings Styles */
+/**
+ * =========================================
  * Misc
  * =========================================
  */
