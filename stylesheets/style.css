@@ -525,6 +525,11 @@ nav .dropdown-menu {
     color: #fff;
     text-align: right; }
 
+.team-current {
+  margin-top: 35px; }
+  .team-current h3 {
+    margin-top: 15px !important; }
+
 /* End Standings Styles */
 /**
  * =========================================

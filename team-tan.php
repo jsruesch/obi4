@@ -21,9 +21,17 @@
             <div class="team-schedule"><?php require_once('schedules/schedule-tan.php'); ?></div>
         </div>
 
-        <!-- Roster -->
+        <!-- Roster and Players -->
         <div class="col-sm-6 roster bg-grey mc">
-            <div class="team-roster"><?php require_once('rosters/roster-tan.php'); ?></div>
+            <div class="col-sm-12 team-current">
+                <div class="col-sm-6 bg-gold">
+                    <h3 class="text-grey text-left">Points: 00</h3>
+                </div>
+                <div class="col-sm-6 bg-gold">
+                    <h3 class="text-grey text-right">Standing: 1</h3>
+                </div>
+            </div>
+            <div class="col-sm-12 team-roster"><?php require_once('rosters/roster-tan.php'); ?></div>
         </div>
 
     </div>
