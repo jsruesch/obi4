@@ -112,22 +112,42 @@
 
     /* Schedules */
     .opponent ul{
-        list-style:none;
-        padding-left: 0;
-        margin-bottom: 0;
+      list-style:none;
+      padding-left: 0;
+      margin-bottom: 0;
+
+      .opponent-team-container{
+
+        table{
+          margin-bottom: 0;
+          margin-top: 0;
+        }
+        .team-score{
+          font-size: 13px;
+        }
+      }
     }
 
     .team-list .bg-green p{ margin-bottom: 10px; }
 
+    .schedule-overview{
+      .col-sm-12{
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
     .team-schedule{
-        .rink{ font-size: 13px; }
-        table{ margin-bottom: 15px; margin-top: -15px; }
-        table tr th{ color: #fff; font-size: 17px; }
-        table tr td{
-            padding: 5px 10px;
-            font-size: 13px;
-            font-weight: 700;
-        }
+      padding: 10px 0 0 0;
+      table{ margin-bottom: 0 !important;}
+
+      .rink{ font-size: 13px; }
+      table{ margin-bottom: 15px; margin-top: -15px; }
+      table tr th{ color: #fff; font-size: 17px; }
+      table tr td{
+          padding: 5px 10px;
+          font-size: 13px;
+          font-weight: 700;
+      }
     }
 
     .points-and-standings{
@@ -147,6 +167,10 @@
           margin-bottom: 0 !important;
         }
       }
+    }
+    .standings{
+      background: none !important;
+      margin-top: 20px;
     }
 }
 
@@ -255,19 +279,40 @@
         list-style:none;
         padding-left: 0;
         margin-bottom: 0;
+
+        .opponent-team-container{
+
+          table{
+            margin-bottom: 0;
+            margin-top: 0;
+          }
+          .team-score{
+            font-size: 13px;
+          }
+        }
     }
 
     .team-list .bg-green p{ margin-bottom: 10px; }
 
+    .schedule-overview{
+      .col-sm-12{
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+
     .team-schedule{
-        .rink{ font-size: 13px; }
-        table{ margin-bottom: 15px; margin-top: -15px; }
-        table tr th{ color: #fff; font-size: 17px; }
-        table tr td{
-            padding: 5px 10px;
-            font-size: 13px;
-            font-weight: 700;
-        }
+      padding: 10px 0 0 0;
+      table{ margin-bottom: 0 !important;}
+
+      .rink{ font-size: 13px; }
+      table{ margin-bottom: 15px; margin-top: -15px; }
+      table tr th{ color: #fff; font-size: 17px; }
+      table tr td{
+          padding: 5px 10px;
+          font-size: 13px;
+          font-weight: 700;
+      }
     }
     .points-and-standings{
       .points{
@@ -286,6 +331,10 @@
           margin-bottom: 0 !important;
         }
       }
+    }
+    .standings{
+      background: none !important;
+      margin-top: 20px;
     }
 }
 /* End of media queries */

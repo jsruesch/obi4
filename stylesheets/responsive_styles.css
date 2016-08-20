@@ -115,22 +115,35 @@
     list-style: none;
     padding-left: 0;
     margin-bottom: 0; }
+    .opponent ul .opponent-team-container table {
+      margin-bottom: 0;
+      margin-top: 0; }
+    .opponent ul .opponent-team-container .team-score {
+      font-size: 13px; }
 
   .team-list .bg-green p {
     margin-bottom: 10px; }
 
-  .team-schedule .rink {
-    font-size: 13px; }
-  .team-schedule table {
-    margin-bottom: 15px;
-    margin-top: -15px; }
-  .team-schedule table tr th {
-    color: #fff;
-    font-size: 17px; }
-  .team-schedule table tr td {
-    padding: 5px 10px;
-    font-size: 13px;
-    font-weight: 700; }
+  .schedule-overview .col-sm-12 {
+    padding-left: 0;
+    padding-right: 0; }
+
+  .team-schedule {
+    padding: 10px 0 0 0; }
+    .team-schedule table {
+      margin-bottom: 0 !important; }
+    .team-schedule .rink {
+      font-size: 13px; }
+    .team-schedule table {
+      margin-bottom: 15px;
+      margin-top: -15px; }
+    .team-schedule table tr th {
+      color: #fff;
+      font-size: 17px; }
+    .team-schedule table tr td {
+      padding: 5px 10px;
+      font-size: 13px;
+      font-weight: 700; }
 
   .points-and-standings .points {
     padding-top: 10px !important; }
@@ -143,7 +156,11 @@
     .points-and-standings .standings h3 {
       text-align: center;
       margin-top: 3px;
-      margin-bottom: 0 !important; } }
+      margin-bottom: 0 !important; }
+
+  .standings {
+    background: none !important;
+    margin-top: 20px; } }
 /* Mobile Devices */
 @media (min-device-width: 768px) and (max-device-width: 992px) {
   .banner-home img {
@@ -243,22 +260,35 @@
     list-style: none;
     padding-left: 0;
     margin-bottom: 0; }
+    .opponent ul .opponent-team-container table {
+      margin-bottom: 0;
+      margin-top: 0; }
+    .opponent ul .opponent-team-container .team-score {
+      font-size: 13px; }
 
   .team-list .bg-green p {
     margin-bottom: 10px; }
 
-  .team-schedule .rink {
-    font-size: 13px; }
-  .team-schedule table {
-    margin-bottom: 15px;
-    margin-top: -15px; }
-  .team-schedule table tr th {
-    color: #fff;
-    font-size: 17px; }
-  .team-schedule table tr td {
-    padding: 5px 10px;
-    font-size: 13px;
-    font-weight: 700; }
+  .schedule-overview .col-sm-12 {
+    padding-left: 0;
+    padding-right: 0; }
+
+  .team-schedule {
+    padding: 10px 0 0 0; }
+    .team-schedule table {
+      margin-bottom: 0 !important; }
+    .team-schedule .rink {
+      font-size: 13px; }
+    .team-schedule table {
+      margin-bottom: 15px;
+      margin-top: -15px; }
+    .team-schedule table tr th {
+      color: #fff;
+      font-size: 17px; }
+    .team-schedule table tr td {
+      padding: 5px 10px;
+      font-size: 13px;
+      font-weight: 700; }
 
   .points-and-standings .points {
     padding-top: 10px !important; }
@@ -271,7 +301,11 @@
     .points-and-standings .standings h3 {
       text-align: center;
       margin-top: 3px;
-      margin-bottom: 0 !important; } }
+      margin-bottom: 0 !important; }
+
+  .standings {
+    background: none !important;
+    margin-top: 20px; } }
 /* End of media queries */
 
 /*# sourceMappingURL=responsive_styles.css.map */

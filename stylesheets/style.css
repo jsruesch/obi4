@@ -369,12 +369,40 @@ nav .dropdown-menu {
   text-align: center;
   text-transform: uppercase; }
 
+.schedule-overview .opponent table {
+  margin-top: 0;
+  margin-bottom: 0; }
+
 .opponent {
   font-family: "Hind", sans-serif;
   font-weight: 900;
   font-size: 20px;
   text-align: center;
   text-transform: uppercase; }
+  .opponent .opponent-team-container {
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #111;
+    /* BS Override */ }
+    .opponent .opponent-team-container p {
+      margin-bottom: 0 !important; }
+    .opponent .opponent-team-container table tr td {
+      border: none; }
+    .opponent .opponent-team-container .team-container {
+      padding: 10px 0 10px 10px;
+      width: 90%; }
+      .opponent .opponent-team-container .team-container p {
+        text-align: left; }
+    .opponent .opponent-team-container .team-score {
+      padding: 10px;
+      margin: -10px 0 -10px 0;
+      background: #000;
+      font-family: "Hind", sans-serif;
+      color: #FFDC00;
+      font-weight: 900;
+      font-size: 20px;
+      text-align: center;
+      text-transform: uppercase; }
 
 .team-header-desktop {
   position: relative;

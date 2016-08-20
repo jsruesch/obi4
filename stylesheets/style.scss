@@ -318,12 +318,51 @@ nav{
     text-transform: uppercase;
 }
 
+.schedule-overview{
+  .opponent{
+    table{
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+}
+
 .opponent{
     font-family: $hind;
     font-weight: 900;
     font-size: 20px;
     text-align: center;
     text-transform: uppercase;
+
+    .opponent-team-container{
+      width: 100%;
+      float: left;
+      border-bottom: 1px solid $grey;
+
+      p{ margin-bottom: 0 !important;} /* BS Override */
+
+      table tr td{ border: none; }
+
+      .team-container{
+        padding: 10px 0 10px 10px;
+        width:90%;
+        p{
+          text-align: left;
+        }
+      }
+
+      .team-score{
+        padding: 10px;
+        margin: -10px 0 -10px 0;
+        background: #000;
+        font-family: $hind;
+        color: $gold;
+        font-weight: 900;
+        font-size: 20px;
+        text-align: center;
+        text-transform: uppercase;
+      }
+    }
 }
 
 .team-header-desktop{
@@ -550,7 +589,7 @@ nav{
                 .standing-team{
                     text-align: center;
                 }
-                
+
                 .standing-points{
                     width: 65px;
                     color: #fff;
@@ -588,6 +627,7 @@ nav{
         text-transform: uppercase;
     }
 }
+
 
 /* End Misc */
 

@@ -35,11 +35,11 @@
             <a href="team-tan.php"><div class="col-sm-3 bg-tan"><p class="text-grey">           <?php include('rosters/team-names.php'); echo $teamTanFull; ?></p></div></a>
             <a href="team-light-blue.php"><div class="col-sm-3 bg-light-blue"><p class="padbot"><?php include('rosters/team-names.php'); echo $teamLightBlueFull; ?></p></div></a>
         </div>-->
-        <div class="col-sm-4 bg-grey">
+        <div class="col-sm-4 bg-grey standings">
             <div class="full">
                 <h3 class="text-white">Standings</h3>
             </div>
-            <div class="full standings">
+            <div class="full">
                 <table class="full">
                     <tr>
                         <td class="standing-number"><span class="text-gold">1</span></td>
